@@ -1,10 +1,13 @@
 import pandas as pd
 import json
 import os
+<<<<<<< HEAD
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from data import load_data
 
+=======
+>>>>>>> 6c77c17a8067a19bb6e76b89155dc39bcc05f22b
 def find_product_name():
         
 # def load_data(self):
