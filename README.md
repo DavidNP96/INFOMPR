@@ -1,1 +1,1 @@
-"# INFOMPR" 
+# INFOMPR: Bigger isn't always better
