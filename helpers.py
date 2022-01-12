@@ -3,7 +3,8 @@ import json
 import os
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
-from data import load_data
+#from data import load_data
+import itertools
 
 def find_product_name():
         
@@ -44,6 +45,33 @@ def create_vectorizer(data):
     X = vectorizer.fit_transform(corpus)
     with open("./pickles/tfidf_vectorizer.p", "wb") as outfile:
         pickle.dump(X, outfile)
+        
+def split_into_words(sentences):
+	"""Splits multiple sentences into words and flattens the result"""
+	return list(itertools.chain(*[_.split(" ") for _ in sentences]))
+
+def get_word_ngrams(n, sentences):
+	"""Calculates word n-grams for multiple sentences."""
+	assert len(sentences) > 0
+	assert n > 0
+
+	words = split_into_words(sentences)
+	return get_ngrams(n, words)
+
+def get_ngrams(n, text):
+	"""Calcualtes n-grams.
+	Args:
+        which n-grams to calculate
+    	text: An array of tokens
+	Returns:
+        set of n-grams
+	"""
+	ngram_set = set()
+	text_length = len(text)
+	max_index_ngram_start = text_length - n
+	for i in range(max_index_ngram_start + 1):
+		ngram_set.add(tuple(text[i:i + n]))
+	return ngram_set
 
 if __name__ == "__main__":
     data = load_data.Data()

@@ -1,16 +1,10 @@
 from gingerit.gingerit import GingerIt
 from nltk.translate.bleu_score import SmoothingFunction, corpus_bleu, sentence_bleu
 import string
-from typing import List, Tuple
-import itertools
+from typing import List
 import pyter
+from helpers import get_word_ngrams
 
-
-"""
-Some quality measures require reference text, others are unsupervised.
-To generate reviews in a certain domain, may need to link it to domain as well to determine quality
-!!!!How do I check if it has created proper sentences???
-"""
 
 def spelling_error(text: str) -> int:
     """
@@ -89,35 +83,7 @@ def corpus_bleu_score(ref: List[List[str]], gen: List[str]) -> float:
     
     return score_bleu
 
-#supporting function
-def _split_into_words(sentences):
-	"""Splits multiple sentences into words and flattens the result"""
-	return list(itertools.chain(*[_.split(" ") for _ in sentences]))
 
-#supporting function
-def _get_word_ngrams(n, sentences):
-	"""Calculates word n-grams for multiple sentences."""
-	assert len(sentences) > 0
-	assert n > 0
-
-	words = _split_into_words(sentences)
-	return _get_ngrams(n, words)
-
-#supporting function
-def _get_ngrams(n, text):
-	"""Calcualtes n-grams.
-	Args:
-        which n-grams to calculate
-    	text: An array of tokens
-	Returns:
-        set of n-grams
-	"""
-	ngram_set = set()
-	text_length = len(text)
-	max_index_ngram_start = text_length - n
-	for i in range(max_index_ngram_start + 1):
-		ngram_set.add(tuple(text[i:i + n]))
-	return ngram_set
 
 def rouge_score(references: List[str], generated: List[str], n=2):
 	"""
@@ -131,30 +97,18 @@ def rouge_score(references: List[str], generated: List[str], n=2):
 	Returns:
 		recall rouge score(float)
     """
-	evaluated_ngrams = _get_word_ngrams(n, generated)
-	reference_ngrams = _get_word_ngrams(n, references)
+	evaluated_ngrams = get_word_ngrams(n, generated)
+	reference_ngrams = get_word_ngrams(n, references)
 	reference_count = len(reference_ngrams)
-	evaluated_count = len(evaluated_ngrams)
       
 	# Gets the overlapping ngrams between evaluated and reference
 	overlapping_ngrams = evaluated_ngrams.intersection(reference_ngrams)
 	overlapping_count = len(overlapping_ngrams)
-      	
-	# Handle edge case. This isn't mathematically correct, but it's good enough
-	if evaluated_count == 0:
-        	precision = 0.0
-	else:
-        	precision = overlapping_count / evaluated_count
 	
 	if reference_count == 0:
-		recall = 0.0
-	else:
-        	recall = overlapping_count / reference_count
-      
-	f1_score = 2.0 * ((precision * recall) / (precision + recall + 1e-8))
-	
-	#just returning recall count in rouge
-	return recall
+		return 0.0
+	return overlapping_count / reference_count # Recall
+
 
 def ter_score(references: List[str], generated: List[str]):
     '''
