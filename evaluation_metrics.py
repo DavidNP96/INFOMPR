@@ -4,7 +4,12 @@ import string
 from typing import List
 import pyter
 from helpers import get_word_ngrams
-
+from numpy import mean
+import pandas as pd
+from numba import cuda
+from numba import jit
+import pysbd
+print(cuda.gpus)
 
 def spelling_error(text: str) -> int:
     """
@@ -24,10 +29,17 @@ def spelling_error(text: str) -> int:
     int
         Number of spelling erros.
     """
+    errors = 0
     parser = GingerIt()
-    result = parser.parse(text)['corrections']
+    for i in range(0, len(text), 299):
+        try:
+            t = text[i:i+300]
+        except:
+            t = text[i:]
+        result = parser.parse(t)['corrections']
+        errors+= len(result)
 
-    return 1 - len(result)/len(text.split())
+    return 1 - errors/len(text.split())
 
 def sentence_bleu_score(ref: List[str], gen: str) -> float:
     """
@@ -41,8 +53,8 @@ def sentence_bleu_score(ref: List[str], gen: str) -> float:
     """
     
     """remove punctuation"""
-    ref = [r.translate(str.maketrans('', '', string.punctuation)) for r in ref]
-    gen = gen.translate(str.maketrans('', '', string.punctuation))
+    ref = [r.translate(str.maketrans('', '', string.punctuation)).lower() for r in ref]
+    gen = gen.translate(str.maketrans('', '', string.punctuation)).lower()
     
     ref_bleu = [r.split() for r in ref]
     gen_bleu = gen.split()
@@ -52,6 +64,18 @@ def sentence_bleu_score(ref: List[str], gen: str) -> float:
     """references = list(str) e.g. can be [review1, review2, review3], 
     hypothesis = str e.g. can be 'This is a cat'"""
     return sentence_bleu(ref_bleu, gen_bleu, smoothing_function=cc.method2)
+
+def mean_sentence_bleu(ref: List[List[str]], gen: List[str]) -> float:
+    """
+    ""
+    Description
+    -----------
+    Different from corpus_bleu_score as it averages scores after division, 
+    not before as in corpus_bleu
+    """
+    assert len(ref) == len(gen)
+    
+    return mean([sentence_bleu_score(r, g) for r, g in zip(ref, gen)])
     
 
 def corpus_bleu_score(ref: List[List[str]], gen: List[str]) -> float:
@@ -82,8 +106,6 @@ def corpus_bleu_score(ref: List[List[str]], gen: List[str]) -> float:
     score_bleu = corpus_bleu(ref_bleu, gen_bleu, smoothing_function=cc.method2)
     
     return score_bleu
-
-
 
 def rouge_score(references: List[str], generated: List[str], n=2):
 	"""
@@ -122,6 +144,30 @@ def ter_score(references: List[str], generated: List[str]):
     total_score = total_score/len(generated)
     return total_score
 
+def determine_baseline(data: pd.DataFrame, function) -> float:
+    """
+    Description
+    -----------
+    Iterate over reviews, use other reviews of same product as reference and 
+    review in question as generated text. Return average score
+    """
+    result = []
+    for i in range(len(data)):
+        try:
+            if (i%1000 == 0):
+                print(i)
+            review = data.loc[i]
+            references = data[(data.asin == review.asin) & (data.reviewText != review.reviewText)]
+            references = references.reviewText.to_list()
+            i+= len(references)
+            result.append(function(references, review.reviewText))
+        except Exception as e:
+            print(e)
+    
+    return mean(result)
+        
+        
+
 ref = "The NASA Opportunity rover is battling a massive dust storm on Mars"
 cand1 = "The Opportunity rover is combating a big sandstorm on Mars"
 cand2 = "A NASA rover is fighting a massive storm on Mars"
@@ -136,15 +182,22 @@ hyp2 = 'he read the book because he was interested in world history'
 
 
 if __name__ == '__main__':
+    
+    "Example scores"
     print('se', spelling_error(cand1))
     print('se', spelling_error(cand2))
     print('sb', sentence_bleu_score([ref1a, ref1b, ref1c], hyp1))
     print('sb', sentence_bleu_score([ref2a], hyp2))
+    print('msb', mean_sentence_bleu([[ref1a, ref1b, ref1c], [ref2a]], [hyp1, hyp2]))
     print('cb', corpus_bleu_score([[ref1a, ref1b, ref1c], [ref2a]], [hyp1, hyp2]))
     print('r',  rouge_score([ref1a, ref1b, ref1c], [hyp1]))
     print('r',  rouge_score([ref2a], [hyp2]))
-    print('t',  ter_score([ref1a], [hyp1]))
-    print('t',  ter_score([ref1a, ref2a], [hyp1, hyp2]))
+    
+    # "Determine baselines"
+    # print('cb bl', determine_baseline(data, sentence_bleu_score)) 0.1479257873995623
+    # print('r bl', determine_baseline(data, rouge_score)) 0.0006166477313487892
+    
+
 
     
     
