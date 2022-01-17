@@ -1,1 +1,7 @@
-/data/**
+
+*.json
+!data/*.json
+*.gz
+!data/*.gz
+
+!pickles/*
