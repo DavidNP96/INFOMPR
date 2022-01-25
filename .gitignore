@@ -7,3 +7,5 @@
 !pickles/*
 /data/*.json
 data/*.txt
+pickles
+LSTM_V*
