@@ -11,3 +11,7 @@ data/CDs_and_Vinyl_5.json.gz
 data/meta_CDs_and_Vinyl.json.gz
 dataX.txt
 dataY.txt
+data/__pycache__/load_data.cpython-39.pyc
+data/baseline-ton-06-3.0841.hdf5
+reviews.txt
+pickles/cpt_2_data.p
