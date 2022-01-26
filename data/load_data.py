@@ -155,11 +155,11 @@ class Data:
             print("vectorizing documents...")
             self.dataX = []
             self.dataY = []
-            self.data = self.data[self.data['reviewText'].notna()]
+            self.data = self.data[self.data['cpt_input'].notna()]
             for instance in tqdm(self.data.itertuples()):
-                seq_length = len(instance.startLabels.split(" "))
+                seq_length = len(instance.startLabels)
                 
-                reviewText = instance.reviewText.split(" ")
+                reviewText = instance.reviewText
                 # self.review_text.append(reviewText)
 
                 n_chars = len(reviewText)
@@ -169,8 +169,8 @@ class Data:
             
                     seq_in = reviewText[i:i + seq_length]
                     seq_out = reviewText[i + seq_length]
-                    self.dataX.append(" ".join(seq_in))
-                    self.dataY.append("".join(seq_out))
+                    self.dataX.append(seq_in)
+                    self.dataY.append(seq_out)
             
             
             with open("../pickles/dataX.p", "wb") as file:

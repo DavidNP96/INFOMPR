@@ -7,3 +7,7 @@
 !pickles/*
 /data/*.json
 data/*.txt
+data/CDs_and_Vinyl_5.json.gz
+data/meta_CDs_and_Vinyl.json.gz
+dataX.txt
+dataY.txt
