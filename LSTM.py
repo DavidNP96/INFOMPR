@@ -20,136 +20,84 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
+from data.load_data import Data
 
+with open(f"pickles/cpt_2_data.p", "rb") as f2:
+    data = pickle.load(f2)
 
-#amount of data to load
-INPUT_NUMBER = 1000
+DATASIZE = 1000
 
-#load data from file
-X = []
-full_text = '\n'
+data = data.loc[0:DATASIZE-1]['cpt_input']
 
-fp = open("dataX.txt", "r")
-for i, line in enumerate(fp):
-    if i < INPUT_NUMBER:
-        line = line.lower()
-        #line = line.translate(str.maketrans("","", string.punctuation))
-        line = line.rstrip()
-        X.append(line)
-        full_text = full_text + ' '.join(line.split())
-    else:
-        break
+text = " ".join(data.to_numpy())
 
-print(X[0])
-i= 0
-Y = []
-fp = open("dataY.txt", "r")
-for line in fp:
-    if i < INPUT_NUMBER:
-        if line.strip() != '':
-            Y.append(line.rstrip())
-        else:
-            Y.append('\n')    
-        i+=1
-        full_text = full_text + ' '.join(line.split())
-    else:
-        break
+characters = sorted(list(set(" ".join(text)+'`')))
+vocab_size = len(characters)
 
-words = X[0].split()
-words.append('\n')
-for i in range(1, len(X)):
-    sequence = X[i].split()
-    for j in range(0, len(sequence)):
-        words.append(sequence[j])
+X = []   # extracted sequences
+Y = []   # the target - the follow up character
 
+seq_length = 180   #number of characters to consider before predicting the following character
 
-for i in range(0, len(Y)):
-    words.append(Y[i])
+n_to_char = {n:char for n, char in enumerate(characters)}
+char_to_n = {char:n for n, char in enumerate(characters)}
 
-#unique words
-words_set = sorted(list(set(words)))
+length = len(text)
 
-#unique characters
-chars = sorted(list(set(full_text)))
-num_chars = len(chars)
-
-#create word mappings
-n_to_char = {n:char for n, char in enumerate(chars)}
-char_to_n = {char:n for n, char in enumerate(chars)}
-
-#create Vectors for training
-
-
-# create vectors for the train text
-     
-count_vect = CountVectorizer()
-X_train_counts = count_vect.fit_transform(X)
-Y_train_counts = count_vect.transform(Y)
-# transform vectors using TF-IDF
-
-print("transform vectors using TF-IDF")
-tfidf_vectorizer = TfidfVectorizer().fit(X)
-
-x_vec_train = tfidf_vectorizer.transform(X).toarray()
-y_vec_train = tfidf_vectorizer.transform(Y).toarray()
-x_vec_train = x_vec_train[:, :, None]
-y_vec_train = y_vec_train[:, :, None]
-
-X_train, X_test, y_train, y_test = train_test_split(x_vec_train, y_vec_train, test_size = 0.2, random_state = 1)
-
-# #create word mappings
-# n_to_word = {n:word for n, word in enumerate(words_set)}
-# word_to_n = {word:n for n, word in enumerate(words_set)}
-
-vocab_size = len(words_set)
-# print('Number of unique words: ', vocab_size)
-
-# X_train = []   # extracted sequences
-# Y_train = []   # the target: follow up character for each sequence in X
-
-# #Create X and Y vectors
-# for i in range(0, len(X)):
-#     X_train.append([word_to_n[word] for word in X[i].split()])
-#     Y_train.append(word_to_n[Y[i]])
+for i in range(0, length - seq_length, 1):
+    sequence = text[i:i + seq_length]
+    label = text[i + seq_length]
+    X.append([char_to_n[char] for char in sequence])
+    Y.append(char_to_n[label])
     
+print('Number of extracted sequences:', len(X))
+    
+X_modified = np.reshape(X, (len(X), seq_length, 1))
+X_modified = X_modified / float(len(characters))
+Y_modified = np_utils.to_categorical(Y)
 
-# X_modified = np.empty((len(X_train), 6))
-
-# for i in range(0, len(X_train)):
-#     while(len(X_train[i]) < 6):
-#         X_train[i].insert(0,0)
-#     while(len(X_train[i]) > 6):
-#         X_train[i].pop()
-#     X_modified[i] = np.array(X_train[i])
-
-# X_modified = X_modified / float(vocab_size)
-# #X_modified = np.reshape(X_modified, (len(X_modified), 6, 1))
-
-
-# Y_modified = np_utils.to_categorical(Y_train, num_classes=vocab_size)
-#print(y_train.shape)
-y_train = tf.squeeze(y_train, axis=-1)
-#Model using LSTM layers
 model = Sequential()
-# model.add(Embedding(vocab_size, X_modified.shape[1], input_length=X_modified.shape[1]))
-model.add(GRU(32, input_shape = X_train.shape[1:], return_sequences=True))
+model.add(GRU(600, input_shape=(X_modified.shape[1], X_modified.shape[2]), return_sequences=True))
 model.add(Dropout(0.2))
-model.add(GRU(32, return_sequences=True))
+model.add(GRU(600))
 model.add(Dropout(0.2))
-model.add(GRU(32))
-model.add(Dropout(0.2))
-model.add(Dense(y_train.shape[1], activation='softmax'))
+model.add(Dense(Y_modified.shape[1], activation='softmax'))
 
-# model = Sequential()
-# model.add(LSTM(units=6, input_shape = X_train.shape[1:], return_sequences = True))
-# model.add(LSTM(units=6, return_sequences=True))
-# model.add(LSTM(units=6, return_sequences=True))
-# model.add(LSTM(units=1, return_sequences=True, name='output'))
-#model.add(Dense(vocab_size, activation='softmax'))
 
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
 
-model.fit(X_train, y_train, epochs=25, batch_size=128)
-model.save('/content/drive/My Drive/Colab Notebooks/LSTM_V4')
+filepath="model_weights/baseline-ton-{epoch:02d}-{loss:.4f}.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
+callbacks_list = [checkpoint]
 
+model.fit(X_modified, Y_modified, epochs=6, batch_size=256, callbacks = callbacks_list)
 
+prompt = 173*'`' + "Dawn FM"
+string_mapped = [char_to_n[char] for char in prompt]
+
+#string_mapped = prompt
+
+full_string = list(prompt)
+
+print("Seed:")
+print("\"", ''.join(full_string), "\"")
+
+# generating characters
+for i in range(400):
+    x = np.reshape(string_mapped,(1,len(string_mapped), 1))
+    x = x / float(len(characters))
+
+    pred_index = np.argmax(model.predict(x, verbose=0))
+    seq = [n_to_char[value] for value in string_mapped]
+    full_string.append(n_to_char[pred_index])
+    
+    string_mapped.append(pred_index)  # add the predicted character to the end
+    string_mapped = string_mapped[1:len(string_mapped)] # shift the string one character forward by removing pos. 0
+    
+# combining text
+txt=""
+for char in full_string:
+    txt = txt+char
+    
+print(start)
+print(txt)
