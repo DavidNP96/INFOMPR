@@ -12,20 +12,20 @@ from keras.layers import RNN
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 import pickle
-import os
-from numpy.random import choice
-import string
+# import os
+# from numpy.random import choice
+# import string
 
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
-from data.load_data import Data
+# from sklearn.feature_extraction.text import CountVectorizer
+# from sklearn.feature_extraction.text import TfidfTransformer
+# from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.model_selection import train_test_split
+# from data.load_data import Data
 
 with open(f"pickles/cpt_2_data.p", "rb") as f2:
     data = pickle.load(f2)
 
-DATASIZE = 1000
+DATASIZE = 36000
 
 data = data.loc[0:DATASIZE-1]['cpt_input']
 
@@ -37,18 +37,23 @@ vocab_size = len(characters)
 X = []   # extracted sequences
 Y = []   # the target - the follow up character
 
-seq_length = 180   #number of characters to consider before predicting the following character
+seq_length = 100   #number of characters to consider before predicting the following character
 
 n_to_char = {n:char for n, char in enumerate(characters)}
 char_to_n = {char:n for n, char in enumerate(characters)}
 
 length = len(text)
 
-for i in range(0, length - seq_length, 1):
-    sequence = text[i:i + seq_length]
-    label = text[i + seq_length]
-    X.append([char_to_n[char] for char in sequence])
-    Y.append(char_to_n[label])
+for r in data.to_numpy():
+
+    for i in range(0, len(r) - seq_length, 5):
+        sequence = text[i:i + seq_length]
+        label = text[i + seq_length]
+        X.append([char_to_n[char] for char in sequence])
+        Y.append(char_to_n[label])
+        
+        if i == 100:
+            break
     
 print('Number of extracted sequences:', len(X))
     
@@ -66,13 +71,13 @@ model.add(Dense(Y_modified.shape[1], activation='softmax'))
 
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
 
-filepath="model_weights/baseline-ton-{epoch:02d}-{loss:.4f}.hdf5"
+filepath="model_weights/retrained-offfice-model-{epoch:02d}-{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
 model.fit(X_modified, Y_modified, epochs=6, batch_size=256, callbacks = callbacks_list)
 
-prompt = 173*'`' + "Dawn FM"
+prompt = 93*'`' + "Dawn FM"
 string_mapped = [char_to_n[char] for char in prompt]
 
 #string_mapped = prompt
@@ -99,5 +104,5 @@ txt=""
 for char in full_string:
     txt = txt+char
     
-print(start)
+print(prompt)
 print(txt)
