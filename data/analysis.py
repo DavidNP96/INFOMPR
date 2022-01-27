@@ -6,22 +6,23 @@ from statsmodels.graphics.factorplots import interaction_plot
 import seaborn as sns
 import matplotlib.pyplot as plt
 plt.rcParams["font.family"] = "Times New Roman"
+sns.color_palette("colorblind")
 
 CONDITIONS = {
         'Q1':  'info',
         'Q2':  'real-0',
-        'Q3':  'Baseline-36000',
-        'Q4':  'Baseline-7200',
-        'Q5':  'Baseline-3600',
-        'Q6':  'Baseline-360',
-        'Q7':  'Retrained-36000',
-        'Q8':  'Retrained-7200',
-        'Q9':  'Retrained-3600',
-        'Q10': 'Retrained-360',
-        'Q11': 'GPT2-36000',
-        'Q12': "GPT2-7200",
-        'Q13': "GPT2-3600",
-        'Q14': "GPT2-360"
+        'Q3':  'Baseline-1.5M',
+        'Q4':  'Baseline-150K',
+        'Q5':  'Baseline-75K',
+        'Q6':  'Baseline-15K',
+        'Q7':  'Retrained-1.5M',
+        'Q8':  'Retrained-150K',
+        'Q9':  'Retrained-75K',
+        'Q10': 'Retrained-15K',
+        'Q11': 'GPT2-1.5M',
+        'Q12': "GPT2-150K",
+        'Q13': "GPT2-75K",
+        'Q14': "GPT2-15K"
 }
 
 MEASURES = {
@@ -100,7 +101,7 @@ def transpose_data(data):
 
 
 
-data = clean_data('data2.xlsx')
+data = clean_data('data.xlsx')
 data_by_condition = transpose_data(data)
 data_no_real = data_by_condition[data_by_condition.Model != 'real']
 data_real = data_by_condition[data_by_condition.Model == 'real']
@@ -120,12 +121,14 @@ data_by_condition.groupby(['Model', 'Datasize']).std()
 model = ols('Appropriateness ~ C(Model) + C(Datasize) + C(Model):C(Datasize)', data=data_no_real).fit()
 print(sm.stats.anova_lm(model, typ=2))
 
-plt.axhline(real_appropriateness, ls='--', color='black')
+plt.axhline(real_coherence, ls='-.', color='black', label='Real')
+plt.ylim(0, 8)
 sns.lineplot(
     data=data_no_real, x="Datasize", y="Appropriateness", 
     hue="Model", style='Model', err_style="bars",
-    markers=['D', '^'], ms=10, palette=['r', 'b']
+    markers=True, ms=10
 )
+plt.legend(bbox_to_anchor=(1, 1.1))
 plt.savefig("Appropriateness.png", format="png", dpi=1200)
 plt.show()
 plt.clf()
@@ -134,12 +137,14 @@ plt.clf()
 model = ols('Fluency ~ C(Model) + C(Datasize) + C(Model):C(Datasize)', data=data_no_real).fit()
 print(sm.stats.anova_lm(model, typ=2))
 
-plt.axhline(real_fluency, ls='--', color='black')
+plt.axhline(real_fluency, ls='-.', color='black', label='Real')
+plt.ylim(0, 8)
 sns.lineplot(
     data=data_no_real, x="Datasize", y="Fluency", 
     hue="Model", style='Model', err_style="bars",
-    markers=['D', '^'], ms=10, palette=['r', 'b']
+    markers=True, ms=10#, palette=sns.color_palette("colorblind")
 )
+plt.legend(bbox_to_anchor=(1, 1.1))
 plt.savefig("Fluency.png", format="png", dpi=1200)
 plt.show()
 plt.clf()
@@ -147,12 +152,14 @@ plt.clf()
 model = ols('Coherence ~ C(Model) + C(Datasize) + C(Model):C(Datasize)', data=data_no_real).fit()
 print(sm.stats.anova_lm(model, typ=2))
 
-plt.axhline(real_coherence, ls='--', color='black')
+plt.axhline(real_coherence, ls='-.', color='black', label='Real')
+plt.ylim(0, 8)
 sns.lineplot(
     data=data_no_real, x="Datasize", y="Coherence", 
     hue="Model", style='Model', err_style="bars",
-    markers=['D', '^'], ms=10, palette=['r', 'b']
+    markers=True, ms=10#, palette=['r', 'b', 'g']
 )
+plt.legend(bbox_to_anchor=(1, 1.1))
 plt.savefig("Coherence.png", format="png", dpi=1200)
 plt.show()
 plt.clf()

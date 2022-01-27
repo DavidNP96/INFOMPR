@@ -25,7 +25,7 @@ from data.load_data import Data
 FILENAME = input("What is your filename? (in data folder)")
 
 #Neem de parameters over zoals ze op colab stonden 
-with open(f"pickles/cpt_2_data.p", "rb") as f2:
+with open(f"pickles/cpt_2_data_cd.p", "rb") as f2:
     data = pickle.load(f2)
 
 DATASIZE = 3600 #param: 3600
@@ -59,9 +59,16 @@ load_status = model.load_weights("data/" + FILENAME)
 
 #vul hier de 10 prompts in een lijst
 prompts = []
-prompts.append(93*'`' + "Dawn FM")
-prompts.append(93*'`' + "Test FM")
+prompts.append(74*'`' + "Fix yourself not the world")
 prompts.append(99*'`' + "=")
+prompts.append(98*'`' + "30")
+prompts.append(93*'`' + "Dawn FM")
+prompts.append(91*'`' + "Fragments")
+prompts.append(84*'`' + "The boy named If")
+prompts.append(93*'`' + "Ds4Ever")
+prompts.append(90*'`' + "Between us")
+prompts.append(96*'`' + "Sour")
+prompts.append(86*'`' + "The Highlights")
 
 reviews = []
 for prompt in prompts:
@@ -91,6 +98,6 @@ for prompt in prompts:
     print(txt)    
     reviews.append(txt + '\n' + '\n')
 
-with open("reviews.txt", "w") as file:
+with open("reviews-15k.txt", "w") as file:
     for review in reviews:
         file.writelines(review)
