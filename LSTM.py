@@ -25,12 +25,13 @@ import pickle
 with open(f"pickles/cpt_2_data.p", "rb") as f2:
     data = pickle.load(f2)
 
-DATASIZE = 36000
+DATASIZE = 4000
 
-data = data.loc[0:DATASIZE-1]['cpt_input']
+data = data.loc[2000:DATASIZE-1]['cpt_input']
 
 text = " ".join(data.to_numpy())
-
+text = text.replace("<ReviewPrompt>", "")
+#text = text.lower()
 characters = sorted(list(set(" ".join(text)+'`')))
 vocab_size = len(characters)
 
@@ -42,19 +43,15 @@ seq_length = 100   #number of characters to consider before predicting the follo
 n_to_char = {n:char for n, char in enumerate(characters)}
 char_to_n = {char:n for n, char in enumerate(characters)}
 
-length = len(text)
+length = 100000
 
-for r in data.to_numpy():
-
-    for i in range(0, len(r) - seq_length, 5):
-        sequence = text[i:i + seq_length]
-        label = text[i + seq_length]
-        X.append([char_to_n[char] for char in sequence])
-        Y.append(char_to_n[label])
+for i in range(0, len(text) - seq_length, 1):
+    sequence = text[i:i + seq_length]
+    label = text[i + seq_length]
+    X.append([char_to_n[char] for char in sequence])
+    Y.append(char_to_n[label])
         
-        if i == 100:
-            break
-    
+
 print('Number of extracted sequences:', len(X))
     
 X_modified = np.reshape(X, (len(X), seq_length, 1))
@@ -68,16 +65,17 @@ model.add(GRU(600))
 model.add(Dropout(0.2))
 model.add(Dense(Y_modified.shape[1], activation='softmax'))
 
-
+filename = "model_weights/retrained-offfice-model-60-1.1599.hdf5"
+model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
 
 filepath="model_weights/retrained-offfice-model-{epoch:02d}-{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
-model.fit(X_modified, Y_modified, epochs=6, batch_size=256, callbacks = callbacks_list)
+model.fit(X_modified, Y_modified, epochs=4, batch_size=512, callbacks = callbacks_list)
 
-prompt = 93*'`' + "Dawn FM"
+prompt = 73*'`' + "Fix the world, not yourself"
 string_mapped = [char_to_n[char] for char in prompt]
 
 #string_mapped = prompt

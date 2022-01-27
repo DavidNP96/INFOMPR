@@ -34,12 +34,13 @@ data = data.loc[0:DATASIZE-1]['cpt_input']
 
 text = " ".join(data.to_numpy())
 
-characters = sorted(list(set(" ".join(text)+'`')))
+#characters = sorted(list(set(" ".join(text)+'`')))
+characters = [' ', '!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', ']', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '~']
 vocab_size = len(characters) #param
 
 #parameters
 seq_length = 100 #param: 100
-vocab_size = 95 #param
+#vocab_size = 95 #param
 
 n_to_char = {n:char for n, char in enumerate(characters)}
 char_to_n = {char:n for n, char in enumerate(characters)}
@@ -58,8 +59,9 @@ load_status = model.load_weights("data/" + FILENAME)
 
 #vul hier de 10 prompts in een lijst
 prompts = []
-prompts.append(173*'`' + "Dawn FM")
-prompts.append(173*'`' + "Test FM")
+prompts.append(93*'`' + "Dawn FM")
+prompts.append(93*'`' + "Test FM")
+prompts.append(99*'`' + "=")
 
 reviews = []
 for prompt in prompts:
