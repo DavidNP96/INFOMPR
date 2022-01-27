@@ -22,17 +22,18 @@ import pickle
 # from sklearn.model_selection import train_test_split
 # from data.load_data import Data
 
-with open(f"pickles/cpt_2_data.p", "rb") as f2:
+with open(f"pickles/cpt_2_data_cd.p", "rb") as f2:
     data = pickle.load(f2)
 
 DATASIZE = 4000
 
-data = data.loc[2000:DATASIZE-1]['cpt_input']
+data = data.loc[0:DATASIZE-1]['cpt_input']
 
 text = " ".join(data.to_numpy())
 text = text.replace("<ReviewPrompt>", "")
 #text = text.lower()
 characters = sorted(list(set(" ".join(text)+'`')))
+characters = [' ', '!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', ']', '_', '`', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '~']
 vocab_size = len(characters)
 
 X = []   # extracted sequences
@@ -43,13 +44,24 @@ seq_length = 100   #number of characters to consider before predicting the follo
 n_to_char = {n:char for n, char in enumerate(characters)}
 char_to_n = {char:n for n, char in enumerate(characters)}
 
-length = 100000
+length = 1500000
 
-for i in range(0, len(text) - seq_length, 1):
+for i in range(0, length - seq_length, 1):
     sequence = text[i:i + seq_length]
     label = text[i + seq_length]
-    X.append([char_to_n[char] for char in sequence])
-    Y.append(char_to_n[label])
+    X_temp = []
+    for char in sequence:
+        if char in characters:
+            X_temp.append(char_to_n[char])
+        else:
+            X_temp.append(0)
+    
+    try:
+        Y.append(char_to_n[label])    
+        X.append(X_temp)
+    except:
+        pass
+    
         
 
 print('Number of extracted sequences:', len(X))
@@ -65,7 +77,7 @@ model.add(GRU(600))
 model.add(Dropout(0.2))
 model.add(Dense(Y_modified.shape[1], activation='softmax'))
 
-filename = "model_weights/retrained-offfice-model-60-1.1599.hdf5"
+filename = "model_weights/office-supplies-model.hdf5"
 model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
 
