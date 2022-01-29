@@ -40,7 +40,7 @@ vocab_size = len(characters) #param
 
 #parameters
 seq_length = 100 #param: 100
-#vocab_size = 95 #param
+vocab_size = 92 #param
 
 n_to_char = {n:char for n, char in enumerate(characters)}
 char_to_n = {char:n for n, char in enumerate(characters)}
@@ -59,16 +59,11 @@ load_status = model.load_weights("data/" + FILENAME)
 
 #vul hier de 10 prompts in een lijst
 prompts = []
-prompts.append(74*'`' + "Fix yourself not the world")
-prompts.append(99*'`' + "=")
-prompts.append(98*'`' + "30")
-prompts.append(93*'`' + "Dawn FM")
-prompts.append(91*'`' + "Fragments")
-prompts.append(84*'`' + "The boy named If")
-prompts.append(93*'`' + "Ds4Ever")
-prompts.append(90*'`' + "Between us")
-prompts.append(96*'`' + "Sour")
-prompts.append(86*'`' + "The Highlights")
+albums = ['Fix yourself not the world','=','30','Dawn FM','Fragments','The boy named If','Ds4Ever','Between us','Sour','The Highlights']
+for album in albums:
+    prompt = "<reviewPrompt> " + album + " <review>"
+    padding_size = 100 - len(prompt)
+    prompts.append(padding_size*'`' + prompt)
 
 reviews = []
 for prompt in prompts:
