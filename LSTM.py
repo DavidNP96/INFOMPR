@@ -27,7 +27,7 @@ with open(f"pickles/cpt_2_data_cd.p", "rb") as f2:
 
 DATASIZE = 4000
 
-data = data.loc[0:DATASIZE-1]['cpt_input']
+data = data.loc[3000:DATASIZE-1]['cpt_input']
 
 text = " ".join(data.to_numpy())
 text = text.replace("<ReviewPrompt>", "")
@@ -44,7 +44,7 @@ seq_length = 100   #number of characters to consider before predicting the follo
 n_to_char = {n:char for n, char in enumerate(characters)}
 char_to_n = {char:n for n, char in enumerate(characters)}
 
-length = 1500000
+length = 75000
 
 for i in range(0, length - seq_length, 1):
     sequence = text[i:i + seq_length]
@@ -77,7 +77,7 @@ model.add(GRU(600))
 model.add(Dropout(0.2))
 model.add(Dense(Y_modified.shape[1], activation='softmax'))
 
-filename = "model_weights/office-supplies-model.hdf5"
+filename = "model_weights/retrained-offfice-model-20-1.0543.hdf5"#office-supplies-model.hdf5"
 model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam',metrics=['accuracy'])
 
@@ -85,34 +85,48 @@ filepath="model_weights/retrained-offfice-model-{epoch:02d}-{loss:.4f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 
-model.fit(X_modified, Y_modified, epochs=4, batch_size=512, callbacks = callbacks_list)
+model.fit(X_modified, Y_modified, epochs=20, batch_size=256, callbacks = callbacks_list)
 
-prompt = 73*'`' + "Fix the world, not yourself"
-string_mapped = [char_to_n[char] for char in prompt]
+prompts = []
+prompts.append(74*'`' + "Fix yourself not the world")
+prompts.append(99*'`' + "=")
+prompts.append(98*'`' + "30")
+prompts.append(93*'`' + "Dawn FM")
+prompts.append(91*'`' + "Fragments")
+prompts.append(84*'`' + "The boy named If")
+prompts.append(93*'`' + "Ds4Ever")
+prompts.append(90*'`' + "Between us")
+prompts.append(96*'`' + "Sour")
+prompts.append(86*'`' + "The Highlights")
 
-#string_mapped = prompt
+reviews = []
+for prompt in prompts:
+    string_mapped = [char_to_n[char] for char in prompt]
 
-full_string = list(prompt)
+    full_string = list(prompt)
 
-print("Seed:")
-print("\"", ''.join(full_string), "\"")
+    print("Seed:")
+    print("\"", ''.join(full_string), "\"")
 
-# generating characters
-for i in range(400):
-    x = np.reshape(string_mapped,(1,len(string_mapped), 1))
-    x = x / float(len(characters))
+    #Generating characters
+    for i in range(400):
+        x = np.reshape(string_mapped,(1,len(string_mapped), 1))
+        x = x / float(len(characters))
 
-    pred_index = np.argmax(model.predict(x, verbose=0))
-    seq = [n_to_char[value] for value in string_mapped]
-    full_string.append(n_to_char[pred_index])
+        pred_index = np.argmax(model.predict(x, verbose=0))
+        seq = [n_to_char[value] for value in string_mapped]
+        full_string.append(n_to_char[pred_index])
     
-    string_mapped.append(pred_index)  # add the predicted character to the end
-    string_mapped = string_mapped[1:len(string_mapped)] # shift the string one character forward by removing pos. 0
+        string_mapped.append(pred_index)  # add the predicted character to the end
+        string_mapped = string_mapped[1:len(string_mapped)] # shift the string one character forward by removing pos. 0
     
-# combining text
-txt=""
-for char in full_string:
-    txt = txt+char
-    
-print(prompt)
-print(txt)
+    # combining text
+    txt=""
+    for char in full_string:
+        txt = txt+char
+    print(txt)    
+    reviews.append(txt + '\n' + '\n')
+
+with open("reviews.txt", "w") as file:
+    for review in reviews:
+        file.writelines(review)
