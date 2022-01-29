@@ -121,14 +121,12 @@ data_by_condition.groupby(['Model', 'Datasize']).std()
 model = ols('Appropriateness ~ C(Model) + C(Datasize) + C(Model):C(Datasize)', data=data_no_real).fit()
 print(sm.stats.anova_lm(model, typ=2))
 
-plt.axhline(real_coherence, ls='-.', color='black', label='Real')
 plt.ylim(0, 8)
 sns.lineplot(
     data=data_no_real, x="Datasize", y="Appropriateness", 
     hue="Model", style='Model', err_style="bars",
     markers=True, ms=10
 )
-plt.legend(bbox_to_anchor=(1, 1.1))
 plt.savefig("Appropriateness.png", format="png", dpi=1200)
 plt.show()
 plt.clf()
@@ -137,14 +135,12 @@ plt.clf()
 model = ols('Fluency ~ C(Model) + C(Datasize) + C(Model):C(Datasize)', data=data_no_real).fit()
 print(sm.stats.anova_lm(model, typ=2))
 
-plt.axhline(real_fluency, ls='-.', color='black', label='Real')
 plt.ylim(0, 8)
 sns.lineplot(
     data=data_no_real, x="Datasize", y="Fluency", 
     hue="Model", style='Model', err_style="bars",
     markers=True, ms=10#, palette=sns.color_palette("colorblind")
 )
-plt.legend(bbox_to_anchor=(1, 1.1))
 plt.savefig("Fluency.png", format="png", dpi=1200)
 plt.show()
 plt.clf()
@@ -152,14 +148,12 @@ plt.clf()
 model = ols('Coherence ~ C(Model) + C(Datasize) + C(Model):C(Datasize)', data=data_no_real).fit()
 print(sm.stats.anova_lm(model, typ=2))
 
-plt.axhline(real_coherence, ls='-.', color='black', label='Real')
 plt.ylim(0, 8)
 sns.lineplot(
     data=data_no_real, x="Datasize", y="Coherence", 
     hue="Model", style='Model', err_style="bars",
     markers=True, ms=10#, palette=['r', 'b', 'g']
 )
-plt.legend(bbox_to_anchor=(1, 1.1))
 plt.savefig("Coherence.png", format="png", dpi=1200)
 plt.show()
 plt.clf()
