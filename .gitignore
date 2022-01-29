@@ -15,3 +15,6 @@ data/__pycache__/load_data.cpython-39.pyc
 data/baseline-ton-06-3.0841.hdf5
 reviews.txt
 pickles/cpt_2_data.p
+models/*/
+output.txt
+data/__pycache__
