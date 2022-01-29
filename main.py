@@ -25,7 +25,7 @@ from data.load_data import Data
 FILENAME = input("What is your filename? (in data folder)")
 
 #Neem de parameters over zoals ze op colab stonden 
-with open(f"pickles/cpt_2_data.p", "rb") as f2:
+with open(f"pickles/cpt_2_data_cd.p", "rb") as f2:
     data = pickle.load(f2)
 
 DATASIZE = 3600 #param: 3600
@@ -93,6 +93,6 @@ for prompt in prompts:
     print(txt)    
     reviews.append(txt + '\n' + '\n')
 
-with open("reviews.txt", "w") as file:
+with open("reviews-15k.txt", "w") as file:
     for review in reviews:
         file.writelines(review)
