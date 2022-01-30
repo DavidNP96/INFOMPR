@@ -5,10 +5,10 @@ from typing import List
 from helpers import get_word_ngrams
 from numpy import mean
 import pandas as pd
-from bert_score import BERTScorer
+from bert_score import score
 # conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
-scorer = BERTScorer(lang="en", rescale_with_baseline=True, device="cuda:0")
+#scorer = BERTScorer(lang="en", rescale_with_baseline=True)
 
 def spelling_error(text: str) -> float:
     """
@@ -132,7 +132,7 @@ def sentence_bert_score(references: List[str], candidates: str, metric: str = 'p
     """
     #if type(candidates) == str:
     #    return scorer.score([candidates], [references])
-    precision, recall, f1 = scorer.score([candidates], [references])
+    precision, recall, f1 = score(candidates, references, lang="en")
 
     if metric == 'p':
         return precision.mean()
@@ -152,7 +152,7 @@ def corpus_bert_score(references: List[List[str]], candidates: List[str], metric
     
     #if type(candidates) == str:
     #    return scorer.score([candidates], [references])
-    precision, recall, f1 = scorer.score(candidates, references)
+    precision, recall, f1 = score(candidates, references, lang="en")
     
     if metric == 'p':
         return precision.mean()
@@ -213,8 +213,8 @@ if __name__ == '__main__':
     print('bs', sentence_bert_score( [ref2a], hyp2))
     print()
     print('cb ', corpus_bleu_score( [[ref1a, ref1b, ref1c], [ref2a]], [hyp1, hyp2]))
-    print('cr ', corpus_rouge_score([[ref1a, ref1b, ref1c], [ref2a]], [hyp1, hyp2]))
     print('cbs', corpus_bert_score( [[ref1a, ref1b, ref1c], [ref2a]], [hyp1, hyp2]))
+    print('cr ', corpus_rouge_score([[ref1a, ref1b, ref1c], [ref2a]], [hyp1, hyp2]))
 
     # "Determine baselines"
     # print('b bl ', determine_baseline(data, corpus_bleu_score))  # 0.11775293410059064

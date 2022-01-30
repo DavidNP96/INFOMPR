@@ -1,0 +1,1023 @@
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> Fix yourself not the world <review>Oscar: The Musical,Love Me Actually,Darkwing,Supergirl,Frozen,Black Mirror,The Cabin in the Woods,The Evil Dead,Revenge of the Red Forest,Tremendous Adventures of Ethan Carter,The Evil Machine,The Good Witch of the West,Sofia: An Unearthly Child,The Good Witch of The Witch\r_love, The Good Witch of the East,The Heartless,Revenge of the Red forest,Tommy Story,Breadtape.O, The Good Witch of the West,The King of Limbs,Cedarwood,The Little Mermaid,Tomato Odyssey,Borough,I Love Lucy,The Little Mermaid,Winnie,The Little Mermaid,Sweetheart,The Little Mermaid,Winnie-the-Pooh,The Little Mermaid,The Little Mermaid,The Queen,The Little Mermaid-New Adventures,The Pilgrim's Pride and Prejudice,The Patriot songs,The Patriot songs,The Patriot songs,Rebecca the,TheRebeccathe,Rebeccathe,The Sweethearts,Carmageddon,Carmageddon,CherryLand,RebeccaThe,Cottonmouth,RebeccaThe,TheSweethe,TheSweetbreads,Cottonmouth,TheSweetbreads,Cottonmouth,TheSweetest Songsofall,Nirvana,RebeccaThe,TheWolf and the Unicorn,TheWoodstockCedarwood,Cedarwood,Rebeccathe,TheWindy City,Christmas story,TheWoods,TheWoodsie & The Woodplay and Music.Virgil and Co.Virgil and Co.TheWoods,TheOmen,TheOmen,TheOmen,TheSandyCottonmouth,TheSweetheartandCottonmouth,TheWindinmeadow,TheSweetheart and TheWhiteMaiden
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> = <review>The perfect dark floral bouquet! <review>Lovely bouquet! <review>An excellent bouity! <loudness>Love it! <review>Beautiful bouquet!> <review>Beautiful bou<review>.review0reviews0reviews1reviews1reviews1reviews1reviews1reviews1review
+
+reviewProm.reviewp1.3.15.5Review-Review-Review-p3.15.5l0reviews3reviews2reviews1review andreviews3reviews1reviews1reviews1ReviewS7reviews
+
+ProductSpec-Spec#: PR00review2015020140201201402011020150200201110370390020110201102011020110201102011review 201201201100000900000020120120120201201201201202012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012013012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012012011producticon-1,producticon-2,Producticon-2,Producticons-2,Producticon-1,Producticon-3,Producticons,Pixicles-2,Polka-1,Polc-5.mp6,1,Polka-2,Polka-3,pixicles-0,Spoons-1,Spoons-5) -Shades-1,Silver-1.mp5,2:1,Silver-1.mp5,L
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> 30 <review>Excellent! Only is not my favorite (Review)
+ the title looks and smells good
+ the price is very the price was goodThe only the title that I feel is bad
+
+sits not bad I did love this it is not my first
+The title of the title makes an excellent
+ a good
+ the quality of this is excellent
+ the
+The quality of this is excellent
+ this isgreat (review)
+
+sucks this isgreat (review)
+ the quality of this isgreat
+ the sound and feels good
+ the quantity of this isgreat
+ the sound and sounds good
+ the quantity myresisgreat (review)
+ the quantity that I enjoy(review)
+ the quantity that I dislike(review)
+ the quantity that I haven
+ it ismyresisofliquifenisandi.
+ the quantity that I use (unreview)
+ The quality of this is excellent
+
+the taste of this is very good and I feel very satisfied
+
+the taste of this is verygood and I I feeleatisfactory
+the quality of this isgreat
+ the quantity that I use (unreview)
+ the smell of the smells isgood, iti
+(review).
+ the quantity that I use (unreview)
+ the scent of the smells isgood,it
+a
+ the price is good, I feelgood
+ the title isgood,I
+thequality of this isgood
+ the price is good,II
+ thequality of this wasgood,I
+
+myresis of myisisandionandisliqui.
+
+•The title isgood,iti
+the quantity that I used(unreview)
+ the quality of of this
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> Dawn FM <review>Best Value - HD-1200b (HD) - No wait..This is a good review... This was an incredible product. The price was the price came in.. My new review - The review-of thebest HD10,The perfect price...The perfect product...No review. I am a reviewer. I am areview. Myreview.
+reviewThe music is flawless. The sound is perfect.The price is excellent.
+
+The music is superb.
+ReviewThe soundtrack is perfect.the money of the review is great.themoney of the music is perfect.
+reviewThe movie scoreis a great movie! The music is great.The money of the review is greatit is agreat...
+ReviewThe movie soundtrack is wonderful.the moneycit... The music is a wonderful music.The, the money is great.
+reviewThe music is splendid.it is agood.themoney iswww.it
+reviewThe song with best theme.the music
+a... the money isbest.it isthemoney
+a... themusic
+an... themusic
+an...
+an...
+an...
+an...
+
+71261-71261-7162-3742-47 and 832.5d7d7d7c6c6c8c8c6836c7c7c7c732and831.c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7cc7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> Fragments <review>Great.
+reviewService Provider: Microsoft.VisualStudio.Precise.BuildServices.Tutorial\TutorialBuildBuilder.Task.Main.Main.Resources.Tutorial.Build.TaskBuilder.Main.Resources.Tutorial.Build.Result.Builder.Compart.CSharp.CSharp.Compart.Generic.Tutorial.DownloadTutorial.CSharp.Comp_7.0 \\.\Framework\BaseFramework\1.7.0.4-1\0\4\1\1.7.0.0.0.4\S.dll.Download_07.15.09_11\7\7\7S2.dll.Bn.Wipe.dll.Shr.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.dll.exe.exe.exe.exe.dll.exe.dll.DLL.dll.dll.dll_6_5.7.0.1-2\3\3b\3b0032.dll.dll.dll.dll_6_3\4\4d\4e\4e0064.dll.dll.dll.dll.shttpwrtdll.dll.Shr.dll.shttpwrtdll.dll.dll.shrt.dll.shrt.dll.shrt.dll.shrt.dll.dll.shrt.dll.shrt.dll.bat.Sh.exe.exe.shrt.bat.exe.shrt.bat.exe.Sh.exe.exe.shrt.dll.bat.Sh.exe.sh.exe.Sh.dll.dll.Sh.exe.Win.Shwin.Wim.
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> The boy named If <review>Bagshot</> (2 reviews) <review>Maniac2Dude2Dude2Dude (5 stars) <review>Bagshot</>The Boy namedAfternoon</review> <review>Crotch (1 review)The Bionic Baby (6 reviews)This isthemorning <review>TheBionicBaby</review] <review>TheSweetDreamerTheSweetDreamer (4 reviews)TheSweetDreamer (4 reviews)TheSweetDream (3 reviews)TheSweetDreamerTheSweetDreamer (3.3" soft, soft.0.0.0.27)This isTheSweetDreamerTheSweet.1.3S-5.3" soft, soft.0TheHoop (2-5 reviews)TheH(10-15 rating)ThisisTheHippo-TheHippo-TheSweet1 -2KU
+Kunzel_IWii.jpg (2K)IWii.jpg (2K)IW.jpg (3k)IWIS3.jpg (3k)IWIS24.jpg,1.00 /Film/Movie/Nightmare -2 -5M4,26 -69
+
+Movie reviews Movie reviews Movies rated Total Reviews 1.0 /1 3% 2.I%D/1 4.7% 1.I%D/0(1-7)1-7
+.1
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> Ds4Ever <review>Dwarven Legend by Ds4 <review>Dwarven Story by <review>Dwarven Ascendancy by <:review
+:review
+
+>Review/review
+
+:review
+:review
+:review
+:review
+:review
+:review
+:
+:review
+:review
+ a:review
+
+www\/www\/www\/www\/www\/review
+:review. I&CMyT&T
+
+"Mr. Fantasy" by Ds4
+
+:review
+:review
+:review
+:review
+:review
+:review
+ http://www\/www\/www\/www\/www\/www\/www\/www\/www\/www\/www\/www\/www\/_82010179590973\/
+. - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+:review
+:review
+:review
+:review
+:review
+
+___
+
+:
+:http://www\/www\/www\/www\/www\/www\/www\/www\/www\/www\/:dwarven.jpg.htm\www \www\\/www\/www\/www\/www\/www\/www\/www\/www\/www\/bund.htm\www\www\www\\ and\and\
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> Between us <review>A sweet and relaxinganime anime about romance and cute love stories. An awesome read after having a anime. I recommend any good reading. An excellent read.The ending is a little bit suspenseful and love songsand music!is a little bit suspenseThe story is simple to readand. An interesting endingand good.I lovethis manga!Anis a little bit suspense and love music.Anis a little bit suspense
+
+This is it! Anis's Anal-talesanal,the storyofan otome comedy andan anime series.The suspenseful storyin one. The story is enjoyable.Anis'san otome comedy andan anime series.The suspenseful storyin one.My review ofanicanime.My review ofhobanome.Anis a bit suspenseandanime.My review ofloveysea.The Story oflove-ogejuu.ananikamanga.anime.Love-lurie.anikamanga.Anime ismyand.anime.Love-o-Love!.AN.anime.Love andCougar.A LovelyLove-o-Manga.Anime.Love andComedy.Ani-Love.InLove.Love andComedy.Ani-Love.Anime.Animes with romantic songs.And.Comic.Ani-Love.TheSousoji.Fan.Anime.Soujo.Sousoji.Songs.Hana.A.Love.Anime.Aou.Anime.Story:A.Love.Aousuki.an.Love.AO.A.Story.A.B.Love.Ao.Love.Ao.A.Story.A.Blue.A.Love.Tan.A.Love.Tou
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> Sour <review>Flavour! <Review>Not exactly what I to recommend but still a nice by-adapter I was the star of my by-adapter I was the star of my review!The scent is fruity, mild fruityThe finish is a bit harsh,theres a very good deal,I like the scent of a perfumeThe smell is not overpoweringThe smell is a bit harsh,it has a slightly floral and mild wood note theres a strong,praiseworthy scentThe scent is sour,sweet,butterThe flavor is dry andsweet,buterandcantor-mild The fragrance is sour,sweet,butterThe fragrance is sweeter with a sour andsweet-pantheatre The scent issweet,buter-butter,anantwisiteandclust ofcitranceI can't believethe. This is myreviewI ama..cantor.my I ama..cantor.this.isi!
+/a/b/b/b/b.
+
+<review>Lovers.sweet.sweet,bordant
+/a I enjoyliles,northern,muggle_suspicion.happy_bordor.
+
+-lady_fluffly.sweet.bordornom.a-northern.A/c/C/C
+'C-pizzling-and-giant.my thei.happy_bortle.happy.muggle_suspicion.happy.flavor.a-northern.A/c/C/ C.
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36
+<reviewPrompt> The Highlights <review>My first the finest a fine fragrance..it is aromatic and fruity....for my new home.The scent is strong and the notes in this fragrantI smell very aromatic and perfumes.It is a good blend. I find it good for the taste..but not as strong as the others which I don't find a strong quality.For me this is a great to go fragrant.For me this is a fantastic fragrance.The scent was great..for me...I find to find to find.The the smells are very beautiful.The best scentThe best fragrance...for me...for my home.The fragrance is.is a superb scent.I am a very wonderful fragrance.In the perfume of the good, I find the best perfume,,I like the perfals.The.Good perfume.The best fragrancefor me..For me.For me..my home.The best perfume-to-my home.I must read(review-cancelled)-The best fragrance-to-my home.I should read(review-c-it).Great and it contains my home in great,andis I recommend
+-the aromatic,It is the best fragrance-to-home.(review-bthe fragrance. It is theest and the best fragrance-to-yust. This is a wonderfully aromatic,beautiful blend oflavin andspiceis aromatic andspice. ithas the most oflavin.southern,pareto,andby the fragrance ofpalladium.It isabeautiful.This is aromatic.it contains the most ofandit. ithustisa.In frag.ithustisa-the fragrance ofdendrospermum,lavinandjestisa-the fragrance ofcandelamol andlavinandjuicei andlavinand.
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> Fix yourself not the world <review>I bought this album and I think it helped me so much....I'm a complete new one.....Myles Kennedy is one of the greatest rockers since Elvis. We grew up together while watching Mr. Taggart play at the Springfield Festival on my daughter. Myles Kennedy is one of the greats...He had great guitar chops when I was a child. I really like Slash....it's the best he has ever played. Myles Kennedy really took on the blues guitar scene.....It's hard to come by when you have not seen her in a decade....love the voice....great songs, songs like The Happiest Baby on the Block....I LOVE her.....Myles is very much like the "Ozzy Osbourne".... I have known one. I love that Slash is on a song and even now I live on a rainy day.....I get to play there sooo bad....love their vocal and work them for the musicians. I listen to Slash often and think he is the best guitar player ever....good songwriters ever....I must say.... I am still very impressed.....I think myles Kennedy is in the top 5 of every great singer in the world who has ever done anything on their own.... She's one of the greatest guitarists ever....I could go on and on....it would be so amazing to own one...it's got the magic of the Elvis concert...it's just so beautiful....I love it!  Myles Kennedy sings in this album right off the bat and I love her vocals!  I LOVE these tunes....I swear I heard them on top of the album and I can't wait to record it....I love it, just check it out.... the video is amazing too! I will go through every song since they were written.  Myles is the reason why guitarers love a good song!  Myles has a huge amount of energy and
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> = <review>great album.    I purchased some of these because I found them on Amazon for more....they are wonderful  My son was very young and very excited to hear this.  I could not find this album on any cd as he liked them for the best part of a season when he went to sleep in it.  he has alot of memories...they had so much to offer  Great music and the songs were so easy to learn.  Nice! I like a good cd  But a good cd can give a great book to listen to  Great CD  If you are going to buy an album but not knowing how best to purchase it  Great price and sound quality!  Great selection if you are going to try this out.  Great price and price.  Great reviews  Great price!
+  Great music. Great quality,great music.  GREAT price!
+
+Great collection of CDs
+
+The album is extremely enjoyable and the music is so good.  Great singers, great singers, great tunes!
+
+One of the best cds  Great singer's vocals - awesome!
+ Great guitar riffs for the song and vocals.  The guitar work is perfect for guitar solo work.
+  Perfect album for the singer especially if you are a huge rocker! 
+
+An alluring sounding CD....  Great material with lots of fun to say!Great cd - Great mix of songs, great guitar work, great lyrics! Great buy if you like heavy metal!
+
+Great selection of songs,great music,great price!! Thank God
+
+This album was great! Thank-o-Neill!
+
+Great cd! Great tracks!! Great cd - Great vinyl cd  Great sound!
+  Great music! Great buy!
+
+Great cd for all!!
+great buy with lots of power.  Great deal for all!!
+
+I know lots of rock groups love this album!
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> 30 <review>good album  very happy with this guy!!!!!! i just read the reviews on this CD and  you are getting 10 stars!!  This  has to do with....I was a fan of his before he released his CDs.  His songs have always been heavy and dark.  His voice is always in my ear and  they always seem to get lost in the songs.  My favorite was this one when I was a kid and i saw him on MTV before i took him on.  His voice is very heavy and i never had the chance to listen and get to hear him.  He is one of the rock pioneers that had a great deal of influence on me.  He really shines on live music and the new cd makes me so happy.  His voice is timeless.  For me it comes off like a lost medley of old songs that I still listen to to through the age of 10 days as opposed as an album that you can download on DVD.  He always seems to get lost in the tracks i love.  He is an easy listening influence on my ears.  I cannot recommend this CD enough!! i bought it as a gift and you will never replace it!!!!!!
+
+I went this album for the first time on my birthday and i am so happy that i got it!!
+
+For the rest of my life if anyone out there is interested in the  CD's or their CD's then please let me know. it is a unique take on rock  if you wish to see the true energy.  It has got to show what will come in the future when we go on to see the band.  He has done a great job as his last LP and if you can't see it then just don't buy it. this CD will add an instant life to any guitar fan who has watched his performance in the past which is totally unacceptable!!
+
+This CD is as well as it
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> Dawn FM <review>Simple & easy to get to sleep....very easy to get up in the afternoon!  Great music and quick.  Great gift!  I have alot of it on my wall & have to try it some time before it keeps falling asleep.  Thank you!!  Great music & good gifts!!!! I wish they had this one!  I really recommend it!!!  Great energy ballad.  Nice job!
+
+SOME GREAT ROCKS! A GREAT ROCK, GREAT SAD TALK SPONSORED
+ GREAT CLASSIC AND DISPOSABLE!!!!
+
+I am always amazed how many CDs I listen to.  They always bring back memories in the form of songs from the album.
+
+Great concert and music, Great music, great mood.  Glad to get these albums!
+
+Great company to keep coming back!!!!!!!
+
+This is a true classic album (love it!).  The vocals are amazing, great in their own way.  Great arrangements of songs from the album.  Great production from the members.  Great performance.
+
+Wonderful album!  Great music at its own right and worth the price.
+
+Wonderful album.
+
+Love it!! Love the songs!!
+
+Saddles up my sleep, sings all night long, sings awesome stuff!
+
+Great cd!
+I was a little disapointed at first but I am glad I got this cd!!!
+  This CD is a great listen since it shows off such awesome sound.
+
+Love music!
+
+ Great music, especially the lyrics!  Great performances by Paul McCartney, Slash and Slash all great.
+
+I will purchase these cd's again!
+
+Great quality - great recording quality.  All songs are GREAT!
+
+Great buy!  Great quality.  Very happy with this cd!
+
+Great CD!! Great sound and song.  Great recording, great presentation.
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> Fragments <review>BEST ARTIST!!!! I LOVE IT!  My daughter loves it!  Just a quick review!  Highly recommend! I really love this work - and my daughter loves it!  Highly recommended :)
+My son loves it!  His daughter loves it!!
+Love it!
+Love the sound of the guitar and how it creates music.  Highly recommended!!
+I love the track I got.  It was great!
+I had a guitar playing friend who was very interested in the band!  But I lost them in an old recording room when I got my new ones.  My daughter loves it so much that my 2-year-olds often listen.
+Thank you!  Very pleased for a wonderful young artist!!!  Love
+  GREAT PRODUCT!!!  My two-year-old is thrilled to have an awesome guitar playing friend!!!Thank You guys!
+Thank you!
+Thanks!
+Thanks again!
+Thank you for this great work!  Love it!
+Thank you!! <review>Very good sounding vocals by the guitar!
+My five-year-old loves it!  Highly recommended.
+I love this project!  Can't wait for my daughter!
+I love their dynamic dynamic guitar play!  Highly recommend!
+I really loved this album!  Highly recommended!
+Thank You!
+You guys!!!
+Thanks!
+Thank you!!
+I don't care if my daughter's singing is terrible or awesome (she's a good performer) 
+Great guitar work!  Highly recommended!!
+Great work!  Highly recommend!
+Love it!
+Thank you!
+
+Thank you!!
+I'm 5 years old!  I love these albums! I love how they are all sung to the same songs at once!  Great work!!
+This is the perfect product!  Love it! Thank you!!
+Thank you!
+Thanks!
+Thanks!
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> The boy named If <review>Great album! One time I was listening to some old songs and I thought "Ozzy Osbourne"  Great album so there! So that's good!  I would definately recommend it to anyone listening to rock music!  It gives great sound and clarity on every instrument and is so hard to find anymore!  Great listening experience! <review>I had some good times with this album and it definitely deserves a second try.  Not as strong and I like the vocals a heck of better and this album is actually more enjoyable.  Also good music! Best quality of rock record  and could also be a favorite of my son but still have it on one of my favorites. Great music!  Don't think I can get enough of this album!
+
+There is NOT a lot of music with great tunes and great music for any of this album.  Great guitar work but just the guitar work and the voice work.  Great job from TONY GANG!  Good musicians work well & easy to work with.  But just the guitar work, the voice work, the instruments etc is great!!!
+
+I would definately recommend this CD to anyone listening to rock and roll and it is worth the money!  Great guitar work, great music, great vocals, great production. Great job with it!
+
+I would love for TONY GANG to give TONY another chance!  Great guitar work he does! Great guitar and voice work! Great music and great sound!
+
+I would definetly recommend this CD if I thought TONY GANG is just a filler album.
+
+The songs are written in real estate style and the lyrics are very heavy and emotionless.  I had a chance to review the CD on my own and saw TION GANG writing this album!  He wrote the entire album on his own time of the year.
+
+The cover art
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> Ds4Ever <review>This album has been hard to work through. I just came through it. My first album was a bit too repetitive. I liked it though. I loved it alot and some of it was my own personal thing. I found what everyone else heard too boring for my taste in listening to that stuff. I honestly did not enjoy this album. There isn't a solid reason to buy it with a group like these. I recommend it to new people who want a quick overview of this country's great music. This is a well done and well done effort which will probably make you enjoy this album more than others. Some of it is decent and can be appreciated without being overly emotional (though some are actually extremely funny). This is a collection of songs which I like very well and can't recommend enough. There is a very good selection of different things that I like/hate about this album, particularly the way this album was written and performed. It's all very nice sounding vocals which are very catchy and well executed. Songs such as 'I Don't Love You', 'Shining' are very enjoyable but a few others are simply forgettable too- but overall there is no other great album this group is known for doing. This album includes some great tunes for when you want better albums and the voice of one great soul singer to accompany it. The songs are a bit repetitive and sometimes repetitive too, but when written well, this group can really play it from a new perspective.  This is a solid album and all, and as an American guitar player, it makes for an awesome choice.  This album is well worth a listen and can be bought right now, especially to someone that loves good heavy rock.
+ Buy the CD here or HERE. 
+
+If you want a quick and easy way to get the sound of this album for your guitar/bass/singing, buy it here.
+
+If you want a
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> Between us <review>Great album!!!! The vocals and guitar vocals are amazing!!!!  Great album!  Really happy with the songs!  Very nice listen if you want to listen to music!!
+
+Be sure to check out more releases from ABRA and MCC and enjoy this amazing vinyl release!
+
+This was very much about my favorite band - Axlsmith.  They're awesome!!  I'm always looking for new bands!
+
+I highly recommend this album for any guitarist who loves a musical sound!
+
+If you like the classical music of the classic era and wish that Axl could be part of our Rock, Roll or Soulful/R&B legacy, please purchase this album!
+
+Thanks!!
+
+I buy many vinyls from ABRA, MCC and KCC.  I also buy ABRA record covers!
+I recommend this excellent track!
+Thank you!
+ If you like Rock, Rock, Soulful or G-S/R you must give this album to others!
+This CD shows you exactly how that band grew up and transformed into Axle's Greatest Hits!
+
+Love this album as a child!  I loved the instrumental singing of "The Way Back" with an old friend of the band!
+
+Great track! If you like the alternative rock of Slash or Slash style of music you must buy this album.  You can't go wrong for this!
+This one sounds like Axles at times as far as Slash and Slash is concerned!
+
+Great deal! If you like Slash but you prefer rock but you love Axles, and you like Slash but you're not sure if Slash or Axles is the best guitar player then purchasing this album will definatly satisfy your needs.  Thanks for bringing this one back!!
+Love this work! So good on me!
+
+Love it! Love it just as much it sounds like Axles on Guns
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> Sour <review>great guitar... amazing....great show...great tunes! cd set. Great energy and melodies! great performances!Great guitar...very fast!Great price!Great performances on the road!! Great record!great tunes!
+
+There was a great show here, and we loved all the recordings. This show has been through several albums and releases. The recording standards are all great, but the guitar soloings are fantastic. If you are new with GTS, listen to this album. You'll love it! The vocalists are awesome!!
+
+The performances were fun. The mood never was drenched in riffs and pounding guitars (which they really are).
+The music was great and the performances were great as well. Great recording quality and plenty of variety. The guitars never complained about being broken, only some people said they were hurt, and others complained.
+
+The show lasted some time. The show was on the road where it was raining, especially with the guitar soloists being on stage.
+
+I highly recommend this album to anyone hoping to learn what the heck was going on... this album doesn't even mention the songs or songs with the greatest guitarist... it's about every single song!
+
+In regards to this album and any one other release by AEG: the first was from their studio in San Diego, but they are no longer there. They are taking over their next studio which is in San Francisco and is in the same vicinity as this one.
+Since this is the first one, I highly recommend you listen to it before you buy it. It doesn't go over your head and you will never purchase this album again.
+
+I got the band ticket from Amazon just in time for the holidays. I checked it and it had no chance to be there anyway. So, when I bought the CD I knew that I was in for a "buy or receive package". I purchased with Amazon and it
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-360
+<reviewPrompt> The Highlights <review>I got a chance to get the music on this awesome CD of classic radio and I love it. It is an excellent buy and I highly recommend it... I was not disappointed. I did read it and my CD read well and so do a bunch of singers. There is an imey old school rock solid rock feel to this book... and it plays perfectly. The guitarplay is good and the vocals are excellent. My husband bought the book at the price of 3.5  CDs, but there is a price to be paid for "An imey Old Savan" by the legendary Jimmy Savant Jr. This book opens up for those of you who just want to experience the material from a different era. Enjoy! 
+  My daughter loves the music of "Don't Be Fooled," but I like the tracks "You Have to Tell Me I Love It" and "My Dear Baby." That being said, I purchased this one at an amazon store because as one of their employees I was there and I really liked the book as much as I was having the time to listen to it. My daughter loves the album. My wife loves the songs as well and their music is great. My daughter hates "The Great One" and "The Great Great One". She said to me that they're "like" the classics of the 1950's.... I didn't like it.... "Great work from my dad!!" I got this CD from a guy who gave it to her.I will definately recommend this book to anyone reading this. 
+ I love the song of "The Good Job" by Elvis Costello. 
+
+It is a good book and I highly recommend it. 
+I just love it!! 
+
+If you are a fan of classics but do not own the album, this is for you!  If you have a copy, and am trying out its DVD
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> Fix yourself not the world <review>This is in the first part of the song and the first part is the old standard rock routine 'My Favorite Things', one of my favorite songs in rock.  It has a lot of good songs from different artists including 'N Sync', 'Bobby Jean' and 'Nails In Your Eyes'.  The song does NOT have 'Bobby Jean' and the chorus is not included on the CD
+
+The only drawback I could find is that it is out of synch with other songs including 'Vogue' (which is in a different genre that I was not aware of).  Other complaints were also made, the track list as far as the chorus and the chorus is not synch with the album's release.  So, even though the song title and lyrics can be quite good, the song title is not synch with anything on the album.
+
+It is not like the album itself has never been great, it has a lot of good songs from varying artists and they are always entertaining.  If you are a fan of the genre, this CD is a great way to take a relaxing journey into that kind of music.  The sound is good and the lyrics are good, however if you buy out the disc after listening to the other songs on the album there might be something on it that makes the album better than they were.  As for the price of the CD the price really makes it worth buying unless you are very familiar with the genre.  If you have used Amazon music i have put together a full set of the songs with the songs on the CD so you know what I am talking about.  I have already recommended this CD due to the popularity of the music, but it has to sell here and make me happy.  Buy it before you go out and buy another one.  Get the Amazon Music App and get your hands on this one!
+
+1/10
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> = <review>good buy and can't wait to have this on my computer. i love the look of them, they are in perfect form... the sound is clean and the picture is excellent. the CD is the perfect gift for any fan, buy this and you will not be disappointed! it is a must have for any fan of music. if you need it, buy the CD or get a copy for yourself and use this as a promotional item. if you are not familiar with the music of the band, just know what they are all about and enjoy them together. i have to say it is an excellent looking and complete cd. im very happy with the purchase of it. its very rare to have this on cd, one might have worn this out but i love going back and listening to it now! as far as packaging goes, well, well, this is pretty good considering the packaging has been there for years. Its almost like a vinyl packaging is a great thing to have but now with the packaging, that doesnt compare. if you are just buying for the visuals, this is a steal... maybe, as in being in my family and not being friends of mine. if you are just collecting for that sort of thing as opposed to just looking at them, get this if you want to, it will save your money... thats what it is all about. well done. i will be buying this again and again!
+
+thank you a lot, im glad i bought it! i hope i had it in my car again when it was in my car. its been so much fun!
+
+wishing i got this in my car...
+
+thanks for this... i just want to say thank you alot for making this a good purchase and a great addition to your computer. thank you very much! its a good gift for any fan either way. and i hope you enjoy it as much as i did. its also a perfect gift from
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> 30 <review>I have been enjoying this cd for the last 2 years as a music lover.  The first CD alone is wonderful, and the second is nothing short of stunning.
+
+The CD itself is phenomenal, in every aspect.  The mix of styles shines through beautifully, and this is a concert DVD that is made for your ears.  The mix of hits and music styles is unmatched, and this brings out the best in every song that you listen to.
+
+There are plenty of great songs, but the soundtrack is a little sparse, and the soundtrack itself isn't that good, and I wish there was more time to mix it up with the rest of the CD.  The album just can't be beat, and this is definitely a must own. 
+
+A bonus for fans of the old and new CD will be the complete package that they will be able to download from this website.
+
+I purchased this CD because I love hearing the old and new songs live, so that I can get them back.
+
+I would recommend this to anyone who is searching for the best of all time, and this is what it is - the best cd you will ever get from a music store that includes classic songs, live performances with lots of the classics, and all the bonus songs (especially for those that can't even get past the music).  If you're a new fan, this is the way to go.
+What is particularly touching about this CD is the unique use of modern song styles.  I found a number of artists using classic song styles without using the classic song styles of others, and that style seems to come a little later because technology changed a couple of decades. I just love this album.
+
+I give it 10 stars for having done the same job over and over, and I give this CD 10 as a true treasure, and I'm not kidding.  I'm totally sure all of you
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> Dawn FM <review>Excellent product. Thank You.  I give it 5 stars.  I get over 5 star's!  Great seller! :) Thanks! :-)
+
+I recommend this to anyone who is new to pop music or would like to pick up a CD for their music. The sound quality is excellent.  For me, this is what a good CD should be for my music.
+
+This is a fantastic sounding CD.
+
+You will appreciate the product. It was packaged on a tight and tight ship.  Thank you for your patience. If you are new to pop music or if you are new to CD music this could be a great CD for you.
+
+And, enjoy!
+
+Love you guys. I wish they could have included this video on one of their CD's. If it was on a DVD and you are playing it correctly then it is excellent. I recommend this video for all my music fans.  Highly recommended. :)
+
+Thank you!
+
+
+WOW, I LOVE LOVE LOVE LOVE LOVE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Thank you!
+
+Thank You.
+
+Good luck.
+
+What do you think?  Have any of you done this for another person?  Give 'Em A Reason. And get these out.  And do it again.  You will not regret it.
+
+It has been reviewed on Amazon.com. This is a great seller for it's price. So glad I bought it.
+
+Just loved it. Happy to recommend it over others. I recommend!  This is an awesome product. All the reviews you give in the Amazon review are correct. It will be new you to music.
+
+Don't forget to give the seller your thoughts on the reviewer reviews. And also if you like my music then definitely buy this as well with any other CD you own.
+
+Also, great service on their website
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> Fragments <review>When I saw the concert on cassette in 1983, I knew I had to watch it.  I am not a fan of the original D-Movie, but my impression was not one i would have been very negative about.  I have watched it over and over and every time I think I am listening to something new, I am not disappointed.  I was happy but would not buy with a grain of salt on this one.  Some people say the dvd was one time but I have never been disappointed. Overall this package is very worth checking out  and a fantastic item.
+
+Would not reccomend purchasing this at your local market.  I have played it twice, if you miss my concerts it is hard to skip.  I would also rate it  4 stars.
+
+If you are looking for a true D-Movie concert album, this could have been, but I don't consider myself a fan of the original.  If you really like these sorts of music then this is something I would certainly skip.
+
+This was originally released at a much better price than its predecessors, the original is a complete piece of dvd tape tape and the packaging is very much like the packaging for the original CD.  This is not an endorsement but I give it 5 stars.
+
+I would recommend it to anyone.  Don't be a fan if you are not a huge fan.  If, however, you are a fan buy this and give it 5 stars.  I would highly recommend  considering the value it brings to the life of all music CDs. (If you do not, then you are not receiving a better sound than this at all!  It isn't even on this concert in all the sense of musical taste.)
+
+Thank you and please don't hesitate to contact us.
+
+**I had to change the title for the D-Movie to avoid giving a negative
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> The boy named If <review>is a winner. I love him. Highly recommended!!!  Wish he was in my music collection, not for the price he was being quoted before.
+The music was excellent as well as the packaging. What other music will compliment them?  The reviews are all amazing!
+Bought it for a gift. Enjoy!!!
+
+Very happy.
+
+For $$$ price!!!!!!!
+love it!
+
+Love it!!!!!!!
+This collection has something for everyone!
+I do not hesitate to purchase  this  as my "Christmas gift". It is the best  CD  I own. Its the best I  own!
+Thank you!!!
+
+You are my #1 music reviewer! My personal favorite - just buy it if you feel you can like it!!! :)
+
+I can't thank you enough!!!!!!
+
+Great!!!!!!!
+
+This isn't a "good" CD, but it is a "great". It can easily be read like  what they were saying a month ago. No  dissapointment. I will be waiting  long for a CD of this high quality, in a timely fashion.
+But wait! It comes in all shapes and sizes!!! Oh  it does not come in vinyl! It is just plastic! It  comes with an insert booklet! What a steal from the $$$ that has to come! This is  exactly  what I hoped for, for only $$$$$!!
+
+One of the greatest vinyl  CDs that I own!!! All the best!
+
+Love it!!!
+
+I could never have asked for a better gift!!!
+
+Picking it up for Christmas will be priceless! Buy this  now, because it will be my gift for many years to come...
+
+Love!!
+
+I am a music reviewer! I have had the choice of listening to, a CD from a favorite artist, music
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> Ds4Ever <review>good music, but  the voice  is not the BEST  I've heard it all   but  the  guitar solos  are the best  I've heard them all from  my car stereo  before  I bought it  just because  I couldn't sing, but  these guys  sound amazing  that way.  I would still recommend this  product over other  Ds4Ever  CDs anyway,  even if you do  not own this CD  the chances are good that it won't sound  awesome when you play  it.  I'm  glad I did!  Thank  you!  Great songs!!!! 
+Good album  especially when  you're doing the piano solo.  If you like  playing piano  and rock  then this is for you!
+  You won't get this anywhere  unless you buy one from the seller of  this cd.  If so,  go ahead, it's only $40!!  if not go and put  it on CD and make it the perfect  price and it will not cost you a penny!!!!  Buy  one of these  the one that is better,  don't forget the one that is  cheaper,  buy two in the one  that works for you   or one that sounds better than this cd,  buy the one that is better.  Buy this one.  It will save you money!!
+  Buy this one when you can!!!  Every so often I hear more great  songs than the other reviews...  these are just  the ones that are  the best.
+It's good to see some of the older ds and ds5 songs  that really helped,  and this cd is  THE CD BEST.  I'm glad that I bought it.  It's  the CD BEST!!!  THANK YOU!!  You and your friends!!!!
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> Between us <review>Excellent songs from these guys. I do like the fact that Jimi Hendrix was in the spotlight, but for me that's "just" me. Also there's always Joey Bada$$. I'm a big Hendrix fan, but never a Hendrix fan. This song definitely gets it out in stereo for sound. Great tunes and great vocals. The only negative is I just found the title track "Cockney" was missing. Good luck I just saw them on video, but I'll have to check it out. Great show. Highly recommend. Buy it now.  And I will, after I'm a Hendrix fan. This is one of my favorites. Would be nice to see them again together.  It didn't have a theme song. Great live show. Highly recommend! Good luck.
+
+From Hendrix: The Wall
+This is a great live performance of God Bless, and that is a pretty cool video. They do a solid job of making it.
+
+From his early days in early life, Hendrix was a very creative artist. During his time in his prime the band played their best. Great songs from these guys are.
+
+From the first time I saw the live sets of these guys you will remember something. This was the first time I heard them.  They were on stage before they were introduced in the first place. You can hear what they thought the songs meant. That was the one time I went to see them on tour. There are a few things you won't hear, if you were a Hendrix fan. For sure, there was a bunch of "newbie" band members. This was a great show from start to finish. This video has some great information for you. If you're not yet familiar with these guys make sure to check them out. If you're not a Hendrix fan buy this one! If you're not a Hend
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> Sour <review>Excellent CD. Some of the songs on this CD are excellent. I was lucky to have one of their songs as it is great when played, if you are into rock and roll then this is a great CD if you play it. Overall a solid rock CD and it is in good hands.  Good buy for anyone of us who love a good old punk album!
+
+
+
+Viviena
+
+
+Corazon Espinado
+
+Maria Maria
+
+Tricia Espinado
+
+Sebastien Espinado
+
+Patti Vitti
+
+La Revita
+
+Luis Espinado
+
+The Velvet Revolver
+
+This CD rocks.  It is a great album with some real rock and roll gems but no filler with this particular one.  Just listen to it once. This CD rocks. You will like it and stay in touch with me.
+
+Hate Songs
+
+Amani
+
+Bravo
+
+Bobby Tambi
+
+Bobby Tambi
+
+Carlos Espinado
+
+Cheryl Espinado
+
+Cheryl Espinado
+
+Cheryl Espinado
+
+Cheryl Espinado
+
+Madonna
+
+Mac Mariano & Tina
+
+Tina
+
+Teddy
+
+Nat King Cole
+
+Martha Bee
+
+Nat Cole
+
+Martha Bee
+
+Dance with the Beast/The Streets
+
+Martha Bee
+
+Tina Ngozid
+
+Bobby Tambi
+
+Nat King Cole
+
+Dance with Santana/A Man and A Girl
+
+Nat King Cole
+
+Bobby Tambi
+
+Darlington County Boys
+
+Darlington County Boys
+
+Darlington County Boys
+
+Darlington County Boys
+
+Darlington County Boys
+
+Darlington County Boys
+
+Darlington County Boys
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-3600
+<reviewPrompt> The Highlights <review>Great sound quality. Great to see some classic tracks.  I would be remiss if I didn't mention the awesome sound quality of this CD.  My first favorite track is "Slither" - it is great.  You can hear the rhythm and melody along with Slash.  A must-have for any Slash fan!  This cd is a keeper.  Even if you can't get a copy of this CD, just wait for a cassette release!  I am a fan of Pink Floyd and I like it so much that I don't think the band should be making it a regular release.  Great CD.  Would give the best one to anyone.  Great tracklisting and a great mix.  I would give 5 stars for their selection of songs.  I recommend The Midnight Sun.  My favorite Pink Floyd album as far as the original group backing them up here in Australia was the "Rocky Road".  That album was actually one of my favorite rock bands back in the 60's.  Every song here is terrific.  The CD is very interesting too!  If you want to know the band history then this is the one CD you should get (especially at the bargain price!).  Great to have and listen to as soon as you buy this album.
+
+Buy it!  Buy it!  Buy it!  Get your tickets!  Buy!  I guarantee a thousand people will own this.
+
+I'm SO sorry this review is not a video.  It has to be someplace you can watch this in person!  But if you want to get your hands on this DVD then you will and if you need to get a copy by the time the disc rolls around next year (I was there) then the best buy this album.  It is the first rock hard rock album by an award winning band, which is fantastic to listen to and to get a taste
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> Fix yourself not the world <review>Silly, silly lyrics, yet charming lyrics are put in a nice and upbeat voice. The boys are happy. I love the song they put in in the booklet to get the song to the end of it with some very good lyrics. A great song. This album is great. I recommend for any rock fan. The band is great and a treasure indeed. You will not be disappointed. If you like rock music and want a great voice the better buy it. I don't give a crap about Pink Floyd or anyone else. I just want to know the truth. Thank goodness I found this on CD. I'll probably buy a couple more. This is a great cd indeed. I'm totally addicted from now on.
+Highlights are:
+1) Rockin' in The Morning
+2) This Time With Pink
+3) I'll Be Home with You, This Time With You
+4) One Last Chance
+5) Home Tonight
+6) Life In The Fast Lane
+7) Pink on Wheels
+8) Come Back Maynard
+9) Lazy Valentine/Red Haze/I'm Waiting for You
+10) My Song For You
+11) Don't Know Where You're Going (I'll Be With You Forever)
+12) Where Is Love
+13) I'll Stand by You
+14) You Are Loving Me
+15) I've Got A Friend
+16) Lazy Valentine/Red Haze
+17) Sweet Thing/Blackest Night
+18) Go Baby Come Back
+19) I'll Be Home with You
+20) Goodbye Pinky
+21) It's About To Get Tough
+24) The Sweet Thing (I'm Waiting For You)
+25) I Can't Get Enough
+26) No Mercy
+27) I Keep Trying
+28) My Heart's Not Going Down
+29) My Heart Goes Down (I'm Waiting For You
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> = <review>Love it. Its a great album. Just good stuff on there album like the title track. My fav. Album. Would buy again!!!  I'm going to go with  "Songs on the Run" because the cover art is just amazing. Nice color and all, so it look as if he made an album. Love it. I would highly recommend this album to anyone. I recommend buying  this album. it is an amazing sound and picture. Highly suggest to everyone else to get one like  it. Love its!! Love it.....
+  "Papa Said" by Joe D. Littles  is awesome. Its a great song  and you will be amazed at how well he made some great songs on there album.  Its easy to understand his music. Love it......
+  "I Love a Hunter" as great as "Sorrow". But it has  too much beat to it. Its a very good song, but all in all I would  recommend this Album not just for fans, but anyone who enjoys the  jazzy sounds of the JAZZ. I hope this album gets  over 10 reviews as a full song. Enjoy it. I'll buy  it again!! Thanks, Paul
+   A++++ Thanks. I'll  play "I'm Got No Right" by the D.L. and "I'm Still Suckin'  Around" by the N.Y.C. punk bands. I love  it like never before, and I'm very pleased with  it. My next album!   It's not  worth listening to too much. All I need  is for you to get it. Buy it too!!!
+  THANKS, KEVIN D. LITTLES! 
+  thank a lot. Love it all. I will buy "High Hopes" again!
+  thank you. I Love you
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> 30 <review>Best CD I have ever bought. The songs are both good and a little repetitive, but nothing too heavy. My only complaint was the packaging. I bought it in plastic. It was very difficult to get it out and put it in case of shipping. I would order it again and with better packaging and clearer music. Now a whole new chapter in how to bring music into your lives. Thanks. Buy it!
+
+  I love it. For my wife's music. She is a musician. Thanks. I can't wait to own the next cd for her. She is a true singer. If you love hip hop and the world around you, listen to this CD. You can hear a lot of what hip hop sounds like. All other CD's sound like hiphop. You will know it. I mean hiphop just doesnt get any better.
+
+What we know about hip hop is that people who just want to listen to it alone do not understand anything about hip hop. You need to listen to a different type of music - a "genre". This is why it is called hip hop, because it sounds very much like other music, but has alot of different styles. "Hip hop" can be in any genre, it just doesn't have the same "traditional" sound or sound like hip hop - "Peg" that is popular in the USA, "Black Sabbath". I can't believe I even bought that CD! It has just too many genres in it. There is not enough variety in it.
+
+What is amazing, is that there is only one song called "Thriller". It is too short. The other song is just a simple "pop" which sounds really lame and like a hip hop album.  Thats why it is called hip hop, because it sounds very much like rap music. I think everyone knows these rap songs, not only in America but around the world, because
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> Dawn FM <review>Delighted with this album.  It definitely took me a bit to really appreciate the way the lyrics and melody are sung and what it all means.  It definitely helped me appreciate her music more.  Overall, I highly recommend this music for anyone who likes a bit of jazz that will love her music.
+
+The songs I like, are great but the guitar work is not what I tend to like as much.  I like it more than my average rock CD because, hey, what did ya expect and what was to come after.
+
+I also recommend the other songs, the cover songs are great but, i have to say, the bass and drums are not what i like.
+
+Now, to make a good closing comment, you know, not every song on AMG is great.  The drum machine and drums don't really shine and the bass guitar parts are just not good.  But the overall music is a lot better.
+
+Now, since you're reading this, I must state in the review that, while i don't endorse most of the other bands (CeCe, Phife, etc.), I respect and support them, as well as their music.  They play a lot of their music right here on the album.
+
+A couple of years ago, the band released a new album, which i just don't think is a good time to be.  No, it's not bad at all.  In fact, i think it's far from the best album I've listened to in several years.  The album was the first to feature the same keyboard parts used on many classic jazz hits.
+
+Even if you don't like CeCe or Phife this album has all the tunes to get you hooked.  If you like a lot of your favorite songs on different kinds of jazz hits, do yourself a favor and get everything! 
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> Fragments <review>I'm a huge fan of BSB-1.  After hearing the cd, i am quite excited to finally get to know them as I am already acquainted with a bunch of the guys that were with the project.
+
+The songs on the cd consist of songs from what appears to be early beginnings to later songs.  You can hear their passion for rock and roll in the early songs, and with the song "Love at First Sight"  the listener gets to experience the album as a whole with a great feel for BSB-1.
+
+After several listens to the album, you'll understand why I like this group's music.  They can rock with the guitar in the first place, while this group has a great soul sound coming through.  The "Dance of the Soul" and "I'm Gonna Lead"  songs make me want to go into the song-listener and buy the cd before listening to another cd.
+
+They do do a really good job at driving the listener in the right direction.  After listening to one of the "I'll Lead A Woman In Blue"  tracks, it got the song to top me and helped me to love the album much more.  I love  the song-listener who loves it all!  The other songs on my cd also make me want to put it in a cart or get my coffee and take a ride on the bike track with them.  Overall, they aren't bad, but their songs just aren't as good as "The Song".  I would buy this group again.  If I were to give this cd 5 stars... well, that's it.  Enjoy!  If you have other BSB-1 CD's, go buy all of them, or just buy one of their other great cd's.  You'll be satisfied.
+
+"My Heart Is In Your Head " 
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> The boy named If <review>The one thing you can buy from the original CD.  This is not the stuff I've seen from any other artist for years.  I have never seen a concert tape of this kind.  It really does not come out on a disc at a decent price.  Not even the original and very limited vinyl edition.  You get what you pay for - the best.  The vinyl is much more complete than the CD, so the quality is improved.  The bonus material is a complete package, so I'm just glad I caught up.  I'd love to buy again.  My kids like this music. I know they like to hear the originals again.  I'm one to listen to vinyl.  Get the latest release. Buy the new.  These DVD's are great too.  Good to go. Buy this one, and if you don't have it already.  It seems I've been waiting for my cd copy to pop up a long time.  I am not a vinyl guy, but I like everything that is on vinyl--I'm a die-hard fan of both vinyl and CD.  Hopefully people like them anyway.  Buy it, and if  anyone else has it already, I'll do it for you.  Thanks, Aenima!
+
+From the title "This is My Life", to the songs that surround the opening credits of the original disc of this classic, to the final credits of the movie "In The Flesh", this cd sets the stage for so many of the things fans have come to expect from the cd release of this soundtrack.  It's so full  of surprises!  It's so long and moving  it makes me laugh!  I am so glad I bought this new cd.  Not only does it sound great, it has the classic feel of this album.  I loved seeing all the songs from the movie "in
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> Ds4Ever <review>Very good album so far.  It got me into jazz a lot in the 80's.  I'm glad I got  it back!  Maybe my father is the best jazz-hacker out there;  I wish he would keep  this in the library to keep  people who are old hippies in the closet  watching jazz when they used to play with  it.  Also the cd's are good,  but I will be buying the dvds, no doubt  they will be great  for jazz collectors!
+
+Anyways, I will post  a review of the album on Amazon soon.  If you don't like this cd, go to the  SACD page for the CD.  You will want to give it a listen.  It is not good.  Only 5-stars,  but it sure beats anything you know.  Good music.  Good CD; but no CD  to start your collection any time soon.
+
+Good to see Ds on tour!  A lot of people don't like you,  but you have to be on top of your game!  Maybe that's why this album  will be better over time.  You  cant even play it alone (my son doesn't like it,  but he cant play it alone).  Great album!  This is about a  hippie jazz artist named Ds  who gets so much love for it...that  makes me wish he would stay  behind in the closet.  I also like his music.  That's how  I like  jazz--a lot of hard-driving jazz songs!  This  may just be one  music cd to start your  collection!  Thank you!
+Shouts out to:  Ds4Ever
+
+NARRATOR:
+I wonder why Ds has  changed his name...?  Is that because
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> Between us <review>Great music and an amazing performance from the world class talent of Raffi. If you like Raffi you should definitely purchase this one for yourself. If you like the original Raffi and feel the influence you have the perfect way, buy this one now.  The prices have been cut from the current $10-$12, but the shipping is fast shipping, and it makes your new purchase even better. I recommend this album to all Raffi fans in this regard. I'd go out on a limb today and give this one five stars because it's the best I've heard. In fact, the CD is my favorite album on Amazon so far, although I'm no audiophile, and it's one of the very few things where I haven't been blown away by one of the best singers on the planet. Thank you very much for your purchase, Raffi. The best. And to Raffi himself. He is so much joyous on this cd, and I'm so thankful that I have this one for my collection. I recommend it, and definitely get some more! This cd is great, but if you like this Raffi CD you should probably skip this one because you'll be disappointed. Go buy him on CD. I highly recommend! - Raffi.  Highly Recommended!
+
+This post was last updated on month old.
+
+Thanks.
+
+Sara Ritenour
+
+Saffi Luv 
+
+Sajkata Mehta
+
+This post may contain other copyrighted material on your system. For more information, including how to add this to your system, see our disclaimer below this post.
+
+Recommended Tracks:
+
+1. "Ghetto Music" (CD/DVD)
+2. "In My Time"
+3. "Dance With Me"
+4. "I'm Afraid"
+5
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> Sour <review>A lot seems to go wrong in this release, the vocals are in a bad rhythm, and the production isn't as good as it seems outta place in some of the other reviews.  For fans, I do recommend you go with the 5.1 or 5.5, these are the best albums that you will ever find on the market.
+If a reviewer were to say that I had ever listened to them on a DVD...well, well, that's just stupid I suppose.  I guess they just don't seem to listen to these songs, but this CD is a step in the right direction.  I would say take it day or night, you should really buy this, not just listen to a 2 hours or 10 minute video of it all.
+Thanks alot for doing this on your behalf, you can't go wrong with this one!  If you only get one thing wrong with this album, it's that the vocals are too low pitched, and the production isn't nearly as good as it seems.  I do think they did have time to work on a couple of songs, but I just don't think they can be much better.  If there is any flaw, it's that the only thing really makes this album worthwhile is a song that you didn't know was being played.  You know what is most valuable in the world??  To get the lyrics to those lyrics, you need to listen to a lot of songs.  I'd only go on 6 songs with this album (as opposed to 5), so those 5 are worth the trouble just to get to.  For anyone interested in other releases, if you are a fan of the sound quality of the vinyl LP, this is a great one, even if you are NOT a fan of this type of sound..just get the disc out.  You won't regret it...
+Overall, I highly recommend this album.  If
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-7200
+<reviewPrompt> The Highlights <review>I've owned this album for years with varying success and have since purchased several more. Well, this one is the most well-remembered. In my opinion, it's the best of the Bowie catalog to this day. On the whole, I do feel he has improved somewhat over the years. This one just shows that Bowie's talent isn't limited to merely writing short stuff. With these songs, "The Last Laugh" and his "Aenema" are classic moments, and one of his greatest hits. And there is no doubt that this album's "Love, War and Peace", his masterpiece "1984" is Bowie's most important song from the 60's-70's. In addition, these are some of the most heartfelt and heartfelt songs, and even the very best rockers. That's a classic, truly; and a gem in no way is overshadowed. The lyrics are absolutely beautiful and the beats just bring me back to an era when life would be an utter nightmare. I know a lot of people have said that, of about half of the album's 8 songs, the songs about the last 20 minutes are the standout, and the rest are not to be missed. What I really like here is the way "1984" begins and is the turning point on the whole album.
+
+There were some songs on this album that are already very popular today. For some, this album proves that they still play in our lives today. It takes a little while to get used to this rockin' tune; and at times just before and after this tune, it gets pretty repetitive. But I just wish it was a little more consistent between songs. Even though an album of this magnitude could take 20 years, this one is still fun and catchy.
+
+Now, after all the years I've spent with Bowie, I've finally got my own chance to listen to this great album. I'll admit though,
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> Fix yourself not the world <review>This album has been the benchmark ever. Get it and listen to yourself in a different way. The man sings in a different language. Just listen and listen.
+
+Pronounced differently from the world, "Shif" was used in "The Wanderer"'s second album. It is another sign of the fact that the man himself does not have the vocabulary to write lyrics. "The Wanderer" uses the lyrics to his own story, and has grown very much on the radio in the years since. Listen closely to the cover. It says something about the man's life, from a certain point of view: "He lived life for the sake of love. He has an open mind and a soul that lives long lives for another. In this day and time every moment was a new day, one that began with the promise of love. We are all born to be together! This is love. It begins now. If I want to become a child of God, I will get a father and a mother with me so that I can be loved too!"
+
+From 'Prompt' to 'Haunting' to 'Pride-in-the-Face'-all these songs combine to bring this song into full appreciation of life, life's beauty, grace and beauty. The man is the man. He has no weakness to be there. He's got nothing against anyone, but that's just not how it works. He lives life to this day and again. This is pure joy and glory and everything he loves is one of his gifts. This is joy, grace, wonder, beauty, peace, and happiness, all of it.
+
+I hope you love. This is music that you really enjoy and not what your average listener has heard in the past. Go get it and listen to something that you enjoy and you will find one or the other. If you do not know where to
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> = <review>Great price, just what I wanted!  Great CD!  I have to say my brother loves it!  Fast shipping in all U.S.A. and Canada!  I used to see this on Vinyl when it came out.  Great! :)  Thanks! :) --- - -
+
+I will continue to buy all of U.S. Albums to bring back all of their great releases.  Just as I did! :) --- - -
+
+I feel like this is the best collection that U.S.-made Music has ever produced, and I am pleased with Amazon's response! :)
+
+PS:  Every single Amazon.com release is great, with tracks I've just heard! :)
+
+(And then you all have anOTHER 5 stars, a big difference in rating :) :) :) --- - -
+
+PPS-1:
+
+I don't think I have ever heard the music of this band.  I thought they were just old school, but they are some of the best I've ever been to.  I do like their sound.  It has a sort of jazz feel to it.  Very, very similar to old school U2.  I'm not sure why they don't seem to be getting more and more popularity from people like Eric, but still, it's wonderful.  This is a great CD to have if you are a fan of music, you might not like it as much now as you did then, but for younger folks, it's a great choice. :) --- - -
+
+PPS2:
+
+It's got some jazz quality to the music, like a bit of bluesy/folk music.  I know I said bluesy/folk when I first bought this, but it is a good CD to get if you are new to Music.  Overall, a great collection. :)
+
+PS3:  There
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> 30 <review>I love it. A great deal. This is the best vinyl reissue of their disc that I have heard. One of my favorites. I wish a collection of their songs was like this, a double CD to give one of their more recent recordings some justice. A must get for music collectors and collectors of their recordings.
+
+If you like their later works you will probably like this disc as well. But I don't recommend a collection to everyone, if you already like this or if you don't yet but I do have the bonus material that it should be enjoyed with the whole collection. I will continue to add more to the collections and I wish the best of their later recordings did get released as well.
+
+Also if you like their earlier recordings of The Fly and The Unforgettable Fire you will probably enjoy this. I hope Amazon keeps giving better prices too. And for those of us who don't know these artists well we must have those CDs first.
+
+Songs and Tracks that I Miss
+
+
+Distant Early Warning
+
+
+The Unforgettable Fire, Fly, The Unforgettable Fire
+
+
+All this with one great single-track that brings it back to its roots. The album is filled with loveable tracks, the title track and my favorite. All that is missing. That's a shame because this disc is great. It is an easy listen that reminds anyone, just get past the commercialism, not the song structures and you can actually tell that this album is better than the one by The Fly.
+
+Other Music that I miss from this work. Love it.
+
+The Best
+The Fly, The Unforgettable Fire, The Unforgettable Fire, The Unforgettable Fire
+
+The Best of The Fly
+
+Fly, The Unforgettable Fire, The Unforgettable Fire
+
+This version is a bit outdated, as many people are saying that the CD is
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> Dawn FM <review>great music.  A very good cd, but I think this is not his best.
+
+Some songs are slow and that's their fault.  But still his best.  I would recommend it for people that like his music.  I recommend getting this cd if you like 80's rock music.
+
+Also if you like 80's rock it doesn't have the riffs too.  For people for sure, not!
+
+Enjoy this great cd and enjoy listening to other people's music too.  Enjoy the band, especially the lead singer Dawn.  :)
+
+Thanks for reading....
+
+I hope you like this CD by Dawn FM.  Thanks for reading. (...)
+
+All my fellow rockers.  You should  enjoy these songs...  Enjoy their music! :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :( :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) ;) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> Fragments <review>Great CD by Steve Sable. It was nice to hear him playing on this CD. It will blow you away as soon as another reviewer has it. Steve is truly a rock legend!!!
+
+There are few albums in the world where you can hear a band without any other members (great record) like, you know, with the help of a guitarist like Chris Barnes, Eric Clapton, Steve Clark, and the like. Fragments is a great album to listen to. I'm 57yrs old, I have a couple old albums, and this one was in my CD player of my car when I bought it, and I just never thought it would be the next time it came out!!
+
+My favorite song is "The Enemy Within," but the thing that keeps me from buying other albums is the cover art done by the band. The first thing you'll notice is that I didn't want to be labeled a fan of the band since my previous review of their debut album was written by them. They sound great - so what do you think??
+
+I highly recommend it to any serious Steve Sable fan. It's a must buy!!! Get the 2nd album, "Breathe," which should be in your collection, as well as the 2nd album by the incredible Steve Clark. I know it may seem like a long time ago, but this new album ROCKS!!!!!!!!!!!!
+
+For more of Steve's classic stuff get 3 great Steve Cakes and the band of Timmy Barnes. I recommend getting their 2nd album, "The Enemy Within," as well as the 2nd album by the amazing Steve Clark. I also recommend getting their second album, "The Enemy Within."  Steve's guitar playing is amazing!!! I wish my brother would buy the second album as well and hear Steve play and grow with the older songs. I love this man!!!
+
+Linda and I really
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> The boy named If <review>love this album the boys have never sounded so original before. they are top notch but not too typical of the era like the boys were back in the day but in some ways they are better.
+
+The songs really are nice, it gives you a sense of how good All Might Feel might have been had they not been such a novelty act when they came out. They even played a version of "You and Me" on the soundtrack.
+
+Highlights are "How You Got Around", "If" and "I Got the Title" which are all good too.
+
+If I Was Your Girlfriend is another nice tune. the guitar work is strong, great vocals and the musicianship is good. This is an amazing album. if your a fan of classic music then you'll buy this. if you are a fan of pop, metal, blues or even even rock you'll also like this album a bunch. if you don't like classic music you are missing a huge part in some of the best songs of the era. this album is the reason you need it. This man is one of the greatest drummers ever. if you aren't a fan of 80's grunge then I recommend you look into albums like this. If you do like 80's grunge then you may just like this. all you need is this album as a starting point. All Might Feel is a must for 80`s grunge fans. it will leave you speechless and may not help you with the songs. if you are a rock fan you must have this item in your collection.
+The lyrics are good on this album. in my opinion it is just like any song except it is a bit louder in song with a lot of lyrics, the songs are interesting and good.
+
+The sound is alright. it sounds good, but the lyrics are not what I would call typical 80`S grunge. not
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> Ds4Ever <review>I just got this product today!! Glad it arrived quickly! Thanks!! Shania!!! Amazon has great stuff. Buy it now!! :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) ;) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> Between us <review>One of the  best R&B albums of my all-time. But we still call each other after the name of the album. This is a good listen if you haven't heard this one by yet. I am a big fan of this album, because I have seen it over 40 times I've been around in my life. But I guess I don't need to get into it anymore. So here you go.
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+
+22.
+23.
+24.
+
+This album starts off with a very nice hook. I love that  the opening song has a beautiful melody that is very melodic for a  big group. Then there is the dance-away. It gives the best of the songs. But it is very well done. I'm glad that it was recorded as an EP (I think "Demons and Wizards" is the best EP of the 70's). However the  most interesting and the most emotional ending is the slow ballad. It brings me back to the oldies. It's a catchy song and I enjoy every minute of it. You know what, when you hear it, it just blows me away! It has all the same great lyrics, too... The best "Demons and Wizards" songs.
+So let me give a warning about the songs on here. I have played them all the way through and never ever listened to any of them better than this. When you are not looking for something specific to enjoy, this album just keeps going. And so on, because the music is so fresh and different. If you are going to buy the 2 CD set
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> Sour <review>I love Sweet Child O' Mine; this cd is incredible in every way. I never give up. Great lyrics, the riffs, the song writing, the musicianship. I would say this is one of the best indie albums in my collection and probably the best CD of its genre. This album will stand the test of time. I have been a fan of Tool ever since I first heard their first album. I enjoy their creative juices and lyrics, and I think this is the best. They were at the height of their powers and their songwriting is the pinnacle of my guitar-playing and playing. I don't need to repeat that with any of their albums on mp3 or DVD. The music and the lyrics just keep on happening. Their debut album was a major hit, and its hard to find today. Highly recommended for Tool fans everywhere. (Don't forget the vinyl edition of this album.)
+
+1. Lovedly to Love You
+2. Happy Stranger
+3. Please
+4. What A Shame About Me
+5. Don't Worry Bout a Thing about Me
+6. Go Deep
+7. Lovedrive 4/5
+8. No Way
+9. I Can't Stand It
+10. Can't Get into My Head Without You
+11. I Can't Love You Too
+12. Come on Home for a Ride
+13. Rock Bottom
+14. I Want You
+15. I Can't Stand It Anymore
+16. It Won't Be the Last
+17. What's Up
+18. Who's Gonna Live Next Door
+19. Love Is Blindness (Live from Sydney)
+20. Here's How Deep My Heart Is
+21. Take That Train Out
+22. Here, What's Up, What's Going On
+23. Can't Stop Going (Live from Sydney)
+24. Life Goes on
+25. Love Will Find
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+Model= gpt2-36000
+<reviewPrompt> The Highlights <review>Great product to order. Thank You! <5 stars>Awesome! <5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+Great!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Excellent!  5 stars
+
+Excellent!  5 stars
+
+Good!  5 stars
+
+Excellent!  5 stars
+
+Excellent!  5 stars
+
+Nice.  5 stars
+
+Excellent!  5 stars
+
+Excellent!  5 stars
+
+Great!  5 stars
+
+Excellent!  5 stars
+
+Excellent!  5 stars
+
+Great!  5 stars
+
+Great!  5 stars
+
+Excellent!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Great!  5 stars
+
+Excellent!  5 stars
+
+Awesome!  5 Stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5 stars
+
+Awesome!  5  stars
+
+Amazing!  5 stars
+
+Awesome!  5  stars
+
+Excellent!  5 stars
+
+Amazing!  5  stars
+----------------------------------------------------------------------------------------------------

@@ -9,3 +9,15 @@
 data/*.txt
 pickles
 LSTM_V*
+data/meta_CDs_and_Vinyl.json.gz
+dataX.txt
+dataY.txt
+data/__pycache__/load_data.cpython-39.pyc
+data/baseline-ton-06-3.0841.hdf5
+reviews.txt
+pickles/cpt_2_data.p
+*.data-00000-of-00001
+*.pb
+LSTM_V4/variables/variables.index
+*.hdf5
+__pycache__
